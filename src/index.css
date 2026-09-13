@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Source Serif 4", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+
+  --color-ink: #12172B;
+  --color-ink-soft: #262C45;
+  --color-paper: #FBF9F4;
+  --color-paper-dim: #F1EEE4;
+  --color-line: #E4E0D3;
+  --color-focus: #3949E0;
+  --color-focus-soft: #EDEEFC;
+  --color-amber: #E8A33D;
+  --color-amber-soft: #FCF0DA;
+  --color-sage: #5FA88F;
+  --color-sage-soft: #E6F2EE;
+  --color-slate: #6B7280;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+::selection {
+  background: var(--color-focus-soft);
+  color: var(--color-focus);
+}
+
+/* Custom scrollbar for the subject rail */
+.rail-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+.rail-scroll::-webkit-scrollbar-thumb {
+  background: var(--color-line);
+  border-radius: 2px;
+}
+
+.prose-notes {
+  line-height: 1.7;
+}
+.prose-notes h1 {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+.prose-notes h2 {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.prose-notes h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.4rem;
+}
+.prose-notes p {
+  margin-bottom: 0.75rem;
+}
+.prose-notes ul, .prose-notes ol {
+  margin-bottom: 0.75rem;
+  padding-left: 1.25rem;
+}
+.prose-notes li {
+  margin-bottom: 0.25rem;
+}
+.prose-notes strong {
+  font-weight: 600;
+}
+.prose-notes code {
+  background: var(--color-paper-dim);
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.25rem;
+  font-size: 0.9em;
+}
