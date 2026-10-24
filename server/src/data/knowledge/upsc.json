@@ -1,0 +1,122 @@
+[
+  {
+    "id": "upsc-fundamental-rights",
+    "subject": "UPSC Polity",
+    "topic": "Fundamental Rights (Part III)",
+    "exams": ["UPSC CSE", "State PSC"],
+    "keywords": ["fundamental", "rights", "part", "iii", "constitution", "article", "equality", "freedom", "writ", "remedies"],
+    "variants": ["fundamental rights", "मूल अधिकार", "part 3 constitution", "article 14 21", "six fundamental rights"],
+    "answer": {
+      "en": "Part III (Articles 12–35) guarantees six Fundamental Rights: Right to Equality (14–18), Right to Freedom (19–22), Right against Exploitation (23–24), Right to Freedom of Religion (25–28), Cultural & Educational Rights (29–30), and Constitutional Remedies (32). Article 32 is called the 'heart and soul of the Constitution' by Dr. Ambedkar.",
+      "hi": "भाग III (अनुच्छेद 12–35) छह मूल अधिकार देता है: समता का अधिकार (14–18), स्वतंत्रता का अधिकार (19–22), शोषण के विरुद्ध अधिकार (23–24), धर्म की स्वतंत्रता का अधिकार (25–28), संस्कृति व शिक्षा के अधिकार (29–30), और संवैधानिक उपचारों का अधिकार (32)। डॉ. आंबेडकर ने अनुच्छेद 32 को 'संविधान की आत्मा' कहा।"
+    },
+    "steps": [
+      { "en": "Article 14: equality before law and equal protection of laws.", "hi": "अनुच्छेद 14: विधि के समक्ष समता और विधियों का समान संरक्षण।" },
+      { "en": "Article 19: six freedoms (speech, assembly, association, movement, residence, profession) — subject to reasonable restrictions.", "hi": "अनुच्छेद 19: छह स्वतंत्रताएँ (वाक्, सम्मेलन, संगम, संचरण, निवास, व्यवसाय) — उचित निर्बंधनों के अधीन।" },
+      { "en": "Article 21: right to life and personal liberty — expanded by courts to privacy, dignity, education, clean environment.", "hi": "अनुच्छेद 21: प्राण व दैहिक स्वतंत्रता का अधिकार — न्यायालयों ने निजता, गरिमा, शिक्षा, स्वच्छ पर्यावरण तक विस्तारित किया।" },
+      { "en": "Article 32 empowers the Supreme Court to issue five writs: habeas corpus, mandamus, prohibition, certiorari, quo warranto.", "hi": "अनुच्छेद 32 सर्वोच्च न्यायालय को पाँच रिट जारी करने की शक्ति देता है: बंदी प्रत्यक्षीकरण, परमादेश, प्रतिषेध, उत्प्रेषण, अधिकार-पृच्छा।" }
+    ],
+    "tip": { "en": "Fundamental Rights are not absolute — Article 19 has 'reasonable restrictions' and can be suspended during a national emergency (except Articles 20 and 21).", "hi": "मूल अधिकार निरपेक्ष नहीं हैं — अनुच्छेद 19 पर 'उचित निर्बंधन' हैं और राष्ट्रीय आपातकाल में (अनुच्छेद 20 व 21 को छोड़कर) निलंबित हो सकते हैं।" },
+    "source": "Constitution of India, Part III; NCERT Class 11 Political Science — Indian Constitution at Work"
+  },
+  {
+    "id": "upsc-dpsp",
+    "subject": "UPSC Polity",
+    "topic": "Directive Principles of State Policy (Part IV)",
+    "exams": ["UPSC CSE", "State PSC"],
+    "keywords": ["directive", "principles", "state", "policy", "part", "iv", "dpsp", "welfare", "socialist", "gandhian"],
+    "variants": ["directive principles", "नीति निदेशक तत्व", "part 4", "dpsp", "article 39a 44"],
+    "answer": {
+      "en": "Part IV (Articles 36–51) contains Directive Principles of State Policy — non-justiciable guidelines for a welfare state. They are classified as Socialist principles (38, 39, 39A, 41–43A, 47), Gandhian principles (40, 43, 46, 47, 48) and Liberal-intellectual principles (44, 45, 48, 48A, 49, 50, 51).",
+      "hi": "भाग IV (अनुच्छेद 36–51) में राज्य के नीति निदेशक तत्व हैं — कल्याणकारी राज्य के लिए न्यायालय द्वारा लागू न होने वाले निर्देश। इन्हें समाजवादी तत्व (38, 39, 39A, 41–43A, 47), गांधीवादी तत्व (40, 43, 46, 47, 48) और उदार-बौद्धिक तत्व (44, 45, 48, 48A, 49, 50, 51) में वर्गीकृत किया जाता है।"
+    },
+    "steps": [
+      { "en": "Article 39A: equal justice and free legal aid (added by 42nd Amendment).", "hi": "अनुच्छेद 39A: समान न्याय व निःशुल्क विधिक सहायता (42वें संशोधन द्वारा जोड़ा)।" },
+      { "en": "Article 44: Uniform Civil Code (unimplemented directive).", "hi": "अनुच्छेद 44: समान नागरिक संहिता (अक्रियान्वित निदेश)।" },
+      { "en": "Article 40: organise village panchayats — basis of the 73rd Amendment.", "hi": "अनुच्छेद 40: ग्राम पंचायतों का संगठन — 73वें संशोधन का आधार।" },
+      { "en": "Conflict rule: Fundamental Rights prevail; DPSP guide policy-making (Minerva Mills, 1980 — balance).", "hi": "संघर्ष नियम: मूल अधिकार प्रबल; DPSP नीति निर्माण का मार्गदर्शन करते हैं (मिनर्वा मिल्स, 1980 — संतुलन)।" }
+    ],
+    "tip": { "en": "DPSP + FR = 'conscience of the Constitution'; DPSP are not enforceable in court — remember this one-liner.", "hi": "DPSP + मूल अधिकार = 'संविधान की अंतःकरण'; DPSP न्यायालय में लागू नहीं होते — यह एक-पंक्ति याद रखें।" },
+    "source": "Constitution of India, Part IV; NCERT Class 11 Political Science"
+  },
+  {
+    "id": "upsc-monsoon",
+    "subject": "UPSC Geography",
+    "topic": "Indian Monsoon Mechanism",
+    "exams": ["UPSC CSE", "State PSC"],
+    "keywords": ["monsoon", "indian", "mechanism", "southwest", "northeast", "rainfall", "itcz", "jet", "stream", "el", "nino"],
+    "variants": ["monsoon kaise aata hai", "मानसून तंत्र", "southwest monsoon", "itcz", "jet stream", "el nino effect"],
+    "answer": {
+      "en": "The Indian monsoon is driven by differential heating of land and sea, the northward shift of the ITCZ, the Tibetan Plateau heat pump, and the tropical easterly jet. The southwest monsoon (June–September) brings ~75% of annual rainfall; the northeast monsoon (Oct–Dec) brings rain to Tamil Nadu and coastal Andhra.",
+      "hi": "भारतीय मानसून भूमि-समुद्र के विभेदी तापन, ITCZ के उत्तर की ओर खिसकने, तिब्बत पठार के ऊष्मा पंप और उष्णकटिबंधीय पूर्वी जेट से संचालित होता है। दक्षिण-पश्चिम मानसून (जून–सितंबर) वार्षिक वर्षा का ~75% देता है; पूर्वोत्तर मानसून (अक्टूबर–दिसंबर) तमिलनाडु व तटीय आंध्र को वर्षा देता है।"
+    },
+    "steps": [
+      { "en": "Summer heating creates a low-pressure zone over northwest India.", "hi": "ग्रीष्म तापन से उत्तर-पश्चिम भारत पर निम्न दाब क्षेत्र बनता है।" },
+      { "en": "ITCZ shifts north to the Ganga plain; southeast trades cross the equator and bend as the southwest monsoon.", "hi": "ITCZ उत्तर में गंगा मैदान तक खिसकता है; दक्षिण-पूर्वी व्यापारिक हवाएँ विषुवत् रेखा पार कर दक्षिण-पश्चिम मानसून बनती हैं।" },
+      { "en": "The Western Ghats force orographic rain (windward), creating a rain-shadow in the Deccan.", "hi": "पश्चिमी घाट पर्वतकृत वर्षा कराते हैं (हवादार ढाल), दक्कन में वृष्टि-छाया बनती है।" },
+      { "en": "Break in monsoon linked to the northward movement of the monsoon trough / jet stream oscillation.", "hi": "मानसून में विराम मानसून गर्त के उत्तर की ओर खिसकने / जेट धारा दोलन से जुड़ा है।" }
+    ],
+    "tip": { "en": "El Niño typically weakens the southwest monsoon; La Niña strengthens it — quote this in answers.", "hi": "एल नीनो सामान्यतः दक्षिण-पश्चिम मानसून कमजोर करता है; ला नीना मजबूत — उत्तर में उद्धृत करें।" },
+    "source": "NCERT Class 11 Geography — India: Physical Environment, Chapter 4"
+  },
+  {
+    "id": "upsc-parliament",
+    "subject": "UPSC Polity",
+    "topic": "Indian Parliament & Legislative Process",
+    "exams": ["UPSC CSE", "State PSC"],
+    "keywords": ["parliament", "lok", "sabha", "rajya", "bill", "legislative", "money", "act", "president", "session"],
+    "variants": ["parliament", "संसद", "bill kaise paas hota hai", "money bill", "lok sabha rajya sabha difference"],
+    "answer": {
+      "en": "Parliament = President + Lok Sabha + Rajya Sabha. A bill passes through first reading (introduction), second reading (committee & debate), third reading (voting), then the other House, and finally President's assent. Money Bills (Article 110) can be introduced only in the Lok Sabha and the Rajya Sabha has 14 days to recommend.",
+      "hi": "संसद = राष्ट्रपति + लोक सभा + राज्य सभा। विधेयक प्रथम वाचन (प्रस्तुति), द्वितीय वाचन (समिति व चर्चा), तृतीय वाचन (मतदान), फिर दूसरे सदन, अंत में राष्ट्रपति की अनुमति से पारित होता है। धन विधेयक (अनुच्छेद 110) केवल लोक सभा में आ सकता है, राज्य सभा के पास 14 दिन होते हैं।"
+    },
+    "steps": [
+      { "en": "Ordinary Bill: either House → other House → President (can return once).", "hi": "साधारण विधेयक: किसी भी सदन → दूसरा सदन → राष्ट्रपति (एक बार लौटा सकते हैं)।" },
+      { "en": "Money Bill: only Lok Sabha; Rajya Sabha must return within 14 days; LS may accept or reject.", "hi": "धन विधेयक: केवल लोक सभा; राज्य सभा 14 दिन में लौटाए; लोक सभा स्वीकार या अस्वीकार कर सकती है।" },
+      { "en": "Constitutional Amendment Bill (Art. 368): special majority in both Houses, no joint sitting.", "hi": "संविधान संशोधन विधेयक (अनु. 368): दोनों सदनों में विशेष बहुमत, संयुक्त बैठक नहीं।" },
+      { "en": "Joint sitting (Art. 108) resolves deadlock on ordinary bills only — not on money or constitutional amendment bills.", "hi": "संयुक्त बैठक (अनु. 108) केवल साधारण विधेयकों का गतिरोध हल करती है — धन या संविधान संशोधन विधेयकों का नहीं।" }
+    ],
+    "tip": { "en": "The Speaker certifies a bill as a Money Bill — this certification is the classic debate point.", "hi": "अध्यक्ष विधेयक को धन विधेयक प्रमाणित करता है — यही प्रमाणन क्लासिक बहस का बिंदु है।" },
+    "source": "Constitution of India, Articles 107–122; NCERT Class 11 Political Science"
+  },
+  {
+    "id": "upsc-five-year-plans",
+    "subject": "UPSC Economy",
+    "topic": "Planning in India & NITI Aayog",
+    "exams": ["UPSC CSE", "State PSC"],
+    "keywords": ["planning", "five", "year", "plan", "niti", "aayog", "commission", "economy", "model", "poverty"],
+    "variants": ["five year plans", "पंचवर्षीय योजनाएँ", "niti aayog", "planning commission", "12th plan"],
+    "answer": {
+      "en": "India followed Five-Year Plans from 1951 to 2017 (12 plans), starting with the Harrod–Domar model in the First Plan (agriculture focus). The Planning Commission (1950) was replaced by NITI Aayog on 1 January 2015, shifting from central planning to cooperative and competitive federalism with a think-tank role.",
+      "hi": "भारत ने 1951 से 2017 तक बारह पंचवर्षीय योजनाएँ अपनाईं; प्रथम योजना (कृषि पर केंद्रित) में हैरोड–डोमर मॉडल। योजना आयोग (1950) को 1 जनवरी 2015 को नीति आयोग से बदला गया — केंद्रीय नियोजन से सहकारी व प्रतिस्पर्धी संघवाद और थिंक-टैंक भूमिका की ओर।"
+    },
+    "steps": [
+      { "en": "First Plan (1951–56): agriculture & irrigation; most successful (target 2.1%, achieved 3.6%).", "hi": "प्रथम योजना (1951–56): कृषि व सिंचाई; सर्वाधिक सफल (लक्ष्य 2.1%, प्राप्ति 3.6%)।" },
+      { "en": "Second Plan (1956–61): Mahalanobis model, heavy industry, import substitution.", "hi": "द्वितीय योजना (1956–61): महालनोबिस मॉडल, भारी उद्योग, आयात प्रतिस्थापन।" },
+      { "en": "Plans 8–12 increasingly focused on human capital, inclusive growth and infrastructure.", "hi": "8–12वीं योजनाएँ मानव पूँजी, समावेशी विकास व अवसंरचना पर केंद्रित रहीं।" },
+      { "en": "NITI Aayog: 15-year Vision, 7-year Strategy, 3-year Action agenda; publishes SDG India Index and Multidimensional Poverty Index.", "hi": "नीति आयोग: 15-वर्षीय दृष्टि, 7-वर्षीय रणनीति, 3-वर्षीय कार्य एजेंडा; SDG India Index व बहुआयामी गरीबी सूचकांक प्रकाशित करता है।" }
+    ],
+    "tip": { "en": "The 12th Plan (2012–17) was the last — quote 'plan holiday 1966–69' as a classic prelims fact.", "hi": "12वीं योजना (2012–17) अंतिम थी — 'योजना अवकाश 1966–69' प्रारंभिक परीक्षा का क्लासिक तथ्य है।" },
+    "source": "NCERT Class 11 Economics — Indian Economic Development; NITI Aayog documents"
+  },
+  {
+    "id": "upsc-climate-conventions",
+    "subject": "UPSC Environment",
+    "topic": "Climate Change Conventions",
+    "exams": ["UPSC CSE", "State PSC"],
+    "keywords": ["climate", "change", "unfccc", "kyoto", "paris", "cop", "cop26", "emission", "carbon", "ndc"],
+    "variants": ["climate change conventions", "जलवायु परिवर्तन सम्मेलन", "paris agreement", "kyoto protocol", "unfccc", "cop"],
+    "answer": {
+      "en": "The UNFCCC (1992, Rio) is the parent treaty, based on CBDR. The Kyoto Protocol (1997) set binding targets for Annex-I countries. The Paris Agreement (COP21, 2015) is a bottom-up regime where all countries submit Nationally Determined Contributions (NDCs) to limit warming to well below 2 °C, preferably 1.5 °C.",
+      "hi": "UNFCCC (1992, रियो) मूल संधि है, आधार CBDR। क्योटो प्रोटोकॉल (1997) ने अनुलग्नक-I देशों के लिए बाध्यकारी लक्ष्य तय किए। पेरिस समझौता (COP21, 2015) नीचे-से-ऊपर व्यवस्था है जिसमें सभी देश NDC प्रस्तुत करते हैं, तापमान वृद्धि 2 °C से काफी नीचे, अधिमानतः 1.5 °C तक रखने हेतु।"
+    },
+    "steps": [
+      { "en": "UNFCCC: framework, no binding targets, principle of common but differentiated responsibilities.", "hi": "UNFCCC: ढाँचा, बाध्यकारी लक्ष्य नहीं, साझा पर विभेदित उत्तरदायित्व का सिद्धांत।" },
+      { "en": "Kyoto: binding GHG cuts for developed countries; CDM, JI and emissions trading mechanisms.", "hi": "क्योटो: विकसित देशों के लिए बाध्यकारी GHG कटौती; CDM, JI व उत्सर्जन व्यापार तंत्र।" },
+      { "en": "Paris: all parties submit NDCs, 5-yearly global stocktake, no binding enforcement.", "hi": "पेरिस: सभी पक्ष NDC प्रस्तुत करते हैं, पाँच-वार्षिक वैश्विक समीक्षा, बाध्यकारी प्रवर्तन नहीं।" },
+      { "en": "India's updated NDC: 45% emissions-intensity cut by 2030, 50% non-fossil capacity, net zero by 2070.", "hi": "भारत का अद्यतन NDC: 2030 तक उत्सर्जन-तीव्रता में 45% कटौती, 50% गैर-जीवाश्म क्षमता, 2070 तक नेट ज़ीरो।" }
+    ],
+    "tip": { "en": "Distinguish 'emissions intensity' from 'absolute emissions' — most UPSC traps sit exactly there.", "hi": "'उत्सर्जन तीव्रता' और 'निरपेक्ष उत्सर्जन' में अंतर रखें — UPSC के अधिकांश ट्रैप यहीं हैं।" },
+    "source": "UNFCCC, Kyoto Protocol, Paris Agreement texts; NCERT Class 11 Biology — Environmental Issues"
+  }
+]

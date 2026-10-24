@@ -1,0 +1,41 @@
+# Angvey full stack — app + self-hosted open-weights LLM (optional Tier 2).
+#
+#   docker compose up -d                 # app only; Tier-1 retrieval, no GPU needed
+#   docker compose --profile llm up -d   # app + Ollama (Tier-2 open-weights answers)
+#   docker compose exec ollama ollama pull qwen3:8b
+#
+services:
+  api:
+    build: .
+    ports:
+      - '8787:8787'
+    environment:
+      ANGVEY_PORT: 8787
+      # Empty by default → Tier-1 retrieval only. Set to the ollama service when
+      # running the "llm" profile:  http://ollama:11434
+      OLLAMA_URL: ${OLLAMA_URL:-}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen3:8b}
+      ANGVEY_FREE_DAILY_DOUBTS: ${ANGVEY_FREE_DAILY_DOUBTS:-10}
+    volumes:
+      - ./server/data/runtime:/app/server/data/runtime
+    restart: unless-stopped
+
+  ollama:
+    image: ollama/ollama:latest
+    profiles: ['llm']
+    ports:
+      - '11434:11434'
+    volumes:
+      - ollama-models:/root/.ollama
+    restart: unless-stopped
+    # For a GPU box, uncomment:
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+
+volumes:
+  ollama-models:

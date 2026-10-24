@@ -1,0 +1,182 @@
+[
+  {
+    "id": "math-quadratic",
+    "subject": "Mathematics",
+    "topic": "Quadratic Equations",
+    "exams": ["JEE Main", "JEE Advanced", "NEET"],
+    "keywords": ["quadratic", "equation", "roots", "discriminant", "sum", "product", "parabola", "nature", "of"],
+    "variants": ["quadratic equation solve", "द्विघात समीकरण", "discriminant", "roots kaise nikale", "sum product of roots"],
+    "answer": {
+      "en": "For ax² + bx + c = 0 (a ≠ 0): roots x = [−b ± √(b² − 4ac)] / 2a. The discriminant D = b² − 4ac decides the nature: D > 0 real distinct, D = 0 real equal, D < 0 complex conjugates.",
+      "hi": "ax² + bx + c = 0 (a ≠ 0) के लिए मूल x = [−b ± √(b² − 4ac)] / 2a। विविक्तकर D = b² − 4ac प्रकृति तय करता है: D > 0 वास्तविक भिन्न, D = 0 वास्तविक समान, D < 0 सम्मिश्र संयुग्मी।"
+    },
+    "steps": [
+      { "en": "Identify a, b, c and compute D = b² − 4ac.", "hi": "a, b, c पहचानें और D = b² − 4ac निकालें।" },
+      { "en": "If D ≥ 0, apply the quadratic formula directly.", "hi": "यदि D ≥ 0, सीधे द्विघात सूत्र लगाएँ।" },
+      { "en": "Check with sum α + β = −b/a and product αβ = c/a.", "hi": "जाँचें: α + β = −b/a और αβ = c/a।" },
+      { "en": "For inequalities, sketch y = ax² + bx + c and read intervals from the sign of a.", "hi": "असमिकाओं के लिए y = ax² + bx + c का आरेख बनाएँ और a के चिह्न से अंतराल पढ़ें।" }
+    ],
+    "tip": { "en": "For 'both roots positive', need D ≥ 0, sum > 0 AND product > 0 — all three together.", "hi": "'दोनों मूल धनात्मक' के लिए D ≥ 0, योग > 0 और गुणनफल > 0 — तीनों एक साथ आवश्यक।" },
+    "source": "NCERT Class 11 Mathematics, Chapter 4 — Complex Numbers and Quadratic Equations"
+  },
+  {
+    "id": "math-limits",
+    "subject": "Mathematics",
+    "topic": "Limits & Standard Forms",
+    "exams": ["JEE Main", "JEE Advanced"],
+    "keywords": ["limit", "limits", "standard", "sinx", "lhopital", "indeterminate", "continuity", "tends", "approaches"],
+    "variants": ["limits kaise solve kare", "सीमा", "limit of sinx/x", "l hospital rule", "0/0 form"],
+    "answer": {
+      "en": "A limit is the value a function approaches. Key standard limits: lim(x→0) sin x/x = 1, lim(x→0) (1+x)^(1/x) = e, lim(x→0) (aˣ − 1)/x = ln a. For 0/0 or ∞/∞ forms use L'Hôpital's rule.",
+      "hi": "सीमा वह मान है जिसके निकट फलन पहुँचता है। मुख्य मानक सीमाएँ: lim(x→0) sin x/x = 1, lim(x→0) (1+x)^(1/x) = e, lim(x→0) (aˣ − 1)/x = ln a। 0/0 या ∞/∞ रूपों में लॉपिटल नियम लगाएँ।"
+    },
+    "steps": [
+      { "en": "Substitute the value first to detect the indeterminate form.", "hi": "पहले मान रखकर अनिश्चित रूप पहचानें।" },
+      { "en": "Try algebra: factorise, rationalise, or cancel common terms.", "hi": "बीजगणित आज़माएँ: गुणनखंड, परिमेयकरण या सामान्य पद काटें।" },
+      { "en": "Use standard limits or series expansion (sin x ≈ x − x³/6).", "hi": "मानक सीमाएँ या श्रेणी विस्तार (sin x ≈ x − x³/6) प्रयोग करें।" },
+      { "en": "If still 0/0 or ∞/∞, differentiate numerator and denominator (L'Hôpital).", "hi": "यदि अब भी 0/0 या ∞/∞, अंश-हर का अवकलन करें (लॉपिटल)।" }
+    ],
+    "tip": { "en": "L'Hôpital only for 0/0 and ∞/∞ — using it on other forms is the most common exam error.", "hi": "लॉपिटल केवल 0/0 और ∞/∞ के लिए — अन्य रूपों में लगाना सबसे सामान्य परीक्षा गलती है।" },
+    "source": "NCERT Class 11 Mathematics, Chapter 12 — Limits and Derivatives"
+  },
+  {
+    "id": "math-derivatives",
+    "subject": "Mathematics",
+    "topic": "Differentiation & Chain Rule",
+    "exams": ["JEE Main", "JEE Advanced"],
+    "keywords": ["derivative", "differentiation", "chain", "rule", "product", "quotient", "dy", "dx", "tangent", "slope"],
+    "variants": ["differentiation samjhao", "अवकलन", "chain rule", "derivative kaise nikale", "dy/dx"],
+    "answer": {
+      "en": "The derivative measures instantaneous rate of change. Core rules: d/dx(xⁿ) = nxⁿ⁻¹, product rule (uv)' = u'v + uv', quotient rule (u/v)' = (u'v − uv')/v², and chain rule dy/dx = dy/du · du/dx.",
+      "hi": "अवकलज तात्कालिक परिवर्तन दर है। मुख्य नियम: d/dx(xⁿ) = nxⁿ⁻¹, गुणनफल नियम (uv)' = u'v + uv', भागफल नियम (u/v)' = (u'v − uv')/v², तथा शृंखला नियम dy/dx = dy/du · du/dx।"
+    },
+    "steps": [
+      { "en": "Identify the outermost operation (power, sin, ln, product...).", "hi": "सबसे बाहरी संक्रिया पहचानें (घात, sin, ln, गुणनफल...)।" },
+      { "en": "Differentiate outside-in using the chain rule.", "hi": "शृंखला नियम से बाहर से भीतर अवकलन करें।" },
+      { "en": "For y = u^v, take ln y = v ln u then differentiate implicitly.", "hi": "y = u^v के लिए ln y = v ln u लेकर अस्पष्ट अवकलन करें।" },
+      { "en": "Slope of the tangent at x = a is f'(a).", "hi": "x = a पर स्पर्श रेखा की ढाल f'(a) है।" }
+    ],
+    "tip": { "en": "For d/dx [f(g(x))], always write the inner function explicitly — it prevents chain-rule slips.", "hi": "d/dx [f(g(x))] में आंतरिक फलन स्पष्ट लिखें — इससे शृंखला नियम की गलतियाँ बचती हैं।" },
+    "source": "NCERT Class 12 Mathematics, Chapter 5 — Continuity and Differentiability"
+  },
+  {
+    "id": "math-integration",
+    "subject": "Mathematics",
+    "topic": "Integration Techniques",
+    "exams": ["JEE Main", "JEE Advanced"],
+    "keywords": ["integration", "integral", "substitution", "parts", "partial", "fraction", "definite", "antiderivative"],
+    "variants": ["integration kaise kare", "समाकलन", "integration by parts", "definite integral", "partial fractions"],
+    "answer": {
+      "en": "Integration reverses differentiation. Main techniques: substitution (for composite functions), by parts ∫u dv = uv − ∫v du (choose u by ILATE), partial fractions for rational functions, and standard forms like ∫dx/(x²+a²) = (1/a)tan⁻¹(x/a).",
+      "hi": "समाकलन अवकलन का उल्टा है। मुख्य विधियाँ: प्रतिस्थापन (संयुक्त फलनों के लिए), खंडश: ∫u dv = uv − ∫v du (ILATE से u चुनें), परिमेय फलनों के लिए आंशिक भिन्न, तथा मानक रूप जैसे ∫dx/(x²+a²) = (1/a)tan⁻¹(x/a)।"
+    },
+    "steps": [
+      { "en": "Look for a derivative present inside the integrand → substitute u.", "hi": "समाकल्य के भीतर उपस्थित अवकलज खोजें → u प्रतिस्थापित करें।" },
+      { "en": "For products of unlike functions, use by parts with ILATE order.", "hi": "असमान फलनों के गुणनफल में ILATE क्रम से खंडश समाकलन करें।" },
+      { "en": "For P(x)/Q(x), factor Q into linear/quadratic terms and split into partial fractions.", "hi": "P(x)/Q(x) में Q को रैखिक/द्विघात पदों में गुणनखंडित कर आंशिक भिन्न बनाएँ।" },
+      { "en": "For definite integrals use the property ∫₀ᵃ f(x)dx = ∫₀ᵃ f(a−x)dx before substituting.", "hi": "निश्चित समाकल में प्रतिस्थापन से पहले गुण ∫₀ᵃ f(x)dx = ∫₀ᵃ f(a−x)dx आज़माएँ।" }
+    ],
+    "tip": { "en": "ILATE: Inverse trig, Logarithmic, Algebraic, Trigonometric, Exponential — choose u leftmost.", "hi": "ILATE: प्रतिलोम त्रिकोणमिति, लघुगणक, बीजगणित, त्रिकोणमिति, चरघातांकी — u सबसे बाएँ से चुनें।" },
+    "source": "NCERT Class 12 Mathematics, Chapter 7 — Integrals"
+  },
+  {
+    "id": "math-probability",
+    "subject": "Mathematics",
+    "topic": "Probability & Bayes' Theorem",
+    "exams": ["JEE Main", "JEE Advanced", "NEET"],
+    "keywords": ["probability", "bayes", "theorem", "conditional", "independent", "events", "conditional", "binomial"],
+    "variants": ["probability samjhao", "प्रायिकता", "bayes theorem", "conditional probability", "independent events"],
+    "answer": {
+      "en": "For events A and B: P(A∪B) = P(A) + P(B) − P(A∩B). Conditional probability P(A|B) = P(A∩B)/P(B). Bayes' theorem reverses conditioning: P(Aᵢ|B) = P(Aᵢ)P(B|Aᵢ) / Σ P(Aⱼ)P(B|Aⱼ).",
+      "hi": "घटनाओं A, B के लिए: P(A∪B) = P(A) + P(B) − P(A∩B)। सप्रतिबंध प्रायिकता P(A|B) = P(A∩B)/P(B)। बेयस प्रमेय प्रतिबंधन उलटता है: P(Aᵢ|B) = P(Aᵢ)P(B|Aᵢ) / Σ P(Aⱼ)P(B|Aⱼ)।"
+    },
+    "steps": [
+      { "en": "Define the sample space and events clearly.", "hi": "प्रतिदर्श समष्टि और घटनाएँ स्पष्ट परिभाषित करें।" },
+      { "en": "Independent iff P(A∩B) = P(A)P(B).", "hi": "स्वतंत्र यदि और केवल यदि P(A∩B) = P(A)P(B)।" },
+      { "en": "For 'given that' questions use P(A|B) = P(A∩B)/P(B).", "hi": "'दिया है कि' वाले प्रश्नों में P(A|B) = P(A∩B)/P(B) प्रयोग करें।" },
+      { "en": "For reverse conditioning draw a tree diagram and apply Bayes.", "hi": "उल्टे प्रतिबंधन के लिए वृक्ष आरेख बनाकर बेयस लगाएँ।" }
+    ],
+    "tip": { "en": "Bayes questions are just weighted averages of conditional probabilities — draw the tree, don't memorise.", "hi": "बेयस के प्रश्न सप्रतिबंध प्रायिकताओं का भारित औसत हैं — वृक्ष बनाएँ, रटें नहीं।" },
+    "source": "NCERT Class 12 Mathematics, Chapter 13 — Probability"
+  },
+  {
+    "id": "math-vectors",
+    "subject": "Mathematics",
+    "topic": "Vectors: Dot & Cross Product",
+    "exams": ["JEE Main", "JEE Advanced"],
+    "keywords": ["vector", "dot", "cross", "product", "scalar", "magnitude", "angle", "perpendicular", "parallel", "area"],
+    "variants": ["dot product", "cross product", "सदिश", "अदिश गुणनफल", "vector product", "unit vector"],
+    "answer": {
+      "en": "Dot product: a·b = |a||b|cos θ (a scalar). Cross product: |a×b| = |a||b|sin θ, direction by the right-hand rule (a vector). a⊥b ⇔ a·b = 0; a∥b ⇔ a×b = 0.",
+      "hi": "अदिश गुणनफल: a·b = |a||b|cos θ (अदिश)। सदिश गुणनफल: |a×b| = |a||b|sin θ, दिशा दक्षिण-हस्त नियम से (सदिश)। a⊥b ⇔ a·b = 0; a∥b ⇔ a×b = 0।"
+    },
+    "steps": [
+      { "en": "Write vectors in î, ĵ, k̂ components.", "hi": "सदिशों को î, ĵ, k̂ घटकों में लिखें।" },
+      { "en": "Dot = sum of products of components.", "hi": "अदिश गुणनफल = घटकों के गुणनफलों का योग।" },
+      { "en": "Cross = determinant of the 3×3 matrix with î, ĵ, k̂ in the first row.", "hi": "सदिश गुणनफल = 3×3 सारणिक जिसकी पहली पंक्ति में î, ĵ, k̂ हैं।" },
+      { "en": "Area of triangle = ½|a×b|; area of parallelogram = |a×b|.", "hi": "त्रिभुज का क्षेत्रफल = ½|a×b|; समांतर चतुर्भुज का क्षेत्रफल = |a×b|।" }
+    ],
+    "tip": { "en": "If a·b = 0 and a×b = 0 simultaneously, one of the vectors must be zero.", "hi": "यदि a·b = 0 और a×b = 0 साथ हों, तो एक सदिश शून्य होना चाहिए।" },
+    "source": "NCERT Class 12 Mathematics, Chapter 10 — Vector Algebra"
+  },
+  {
+    "id": "math-matrices",
+    "subject": "Mathematics",
+    "topic": "Matrices & Determinants",
+    "exams": ["JEE Main", "JEE Advanced"],
+    "keywords": ["matrix", "matrices", "determinant", "inverse", "singular", "transpose", "adjoint", "rank"],
+    "variants": ["matrix inverse", "आव्यूह", "सारणिक", "determinant kaise nikale", "singular matrix"],
+    "answer": {
+      "en": "A matrix is invertible only if det(A) ≠ 0, with A⁻¹ = adj(A)/det(A). For a 2×2 matrix [[a,b],[c,d]], det = ad − bc. det(AB) = det(A)·det(B) and det(Aᵀ) = det(A).",
+      "hi": "आव्यूह प्रतिलोमी तभी है जब det(A) ≠ 0, और A⁻¹ = adj(A)/det(A)। 2×2 आव्यूह [[a,b],[c,d]] के लिए det = ad − bc। det(AB) = det(A)·det(B) और det(Aᵀ) = det(A)।"
+    },
+    "steps": [
+      { "en": "Compute det(A) first — if 0, the inverse does not exist (singular).", "hi": "पहले det(A) निकालें — यदि 0, प्रतिलोम नहीं है (अव्युत्क्रमणीय)।" },
+      { "en": "Find cofactors, then transpose to get adj(A).", "hi": "सहगुणक निकालें, फिर परिवर्त लेकर adj(A) प्राप्त करें।" },
+      { "en": "Divide by det(A) to get A⁻¹.", "hi": "det(A) से भाग देकर A⁻¹ प्राप्त करें।" },
+      { "en": "Solve AX = B as X = A⁻¹B (unique solution only if det ≠ 0).", "hi": "AX = B को X = A⁻¹B से हल करें (अद्वितीय हल केवल यदि det ≠ 0)।" }
+    ],
+    "tip": { "en": "Check |A⁻¹| = 1/|A| — a fast verification that saves minutes.", "hi": "|A⁻¹| = 1/|A| जाँचें — मिनट बचाने वाला त्वरित सत्यापन।" },
+    "source": "NCERT Class 12 Mathematics, Chapters 3–4 — Matrices & Determinants"
+  },
+  {
+    "id": "math-conic",
+    "subject": "Mathematics",
+    "topic": "Conic Sections",
+    "exams": ["JEE Main", "JEE Advanced"],
+    "keywords": ["conic", "section", "parabola", "ellipse", "hyperbola", "eccentricity", "focus", "directrix", "circle"],
+    "variants": ["conic sections", "शंकु परिच्छेद", "parabola equation", "ellipse formula", "eccentricity"],
+    "answer": {
+      "en": "Conics by eccentricity e: circle (e = 0), ellipse (0 < e < 1), parabola (e = 1), hyperbola (e > 1). Standard forms: y² = 4ax (parabola), x²/a² + y²/b² = 1 (ellipse), x²/a² − y²/b² = 1 (hyperbola).",
+      "hi": "उत्केंद्रता e से शंकु: वृत्त (e = 0), दीर्घवृत्त (0 < e < 1), परवलय (e = 1), अतिपरवलय (e > 1)। मानक रूप: y² = 4ax (परवलय), x²/a² + y²/b² = 1 (दीर्घवृत्त), x²/a² − y²/b² = 1 (अतिपरवलय)।"
+    },
+    "steps": [
+      { "en": "Compare the given equation with standard forms to identify the type.", "hi": "दिए समीकरण की मानक रूपों से तुलना कर प्रकार पहचानें।" },
+      { "en": "Extract a, b, and compute c: ellipse c² = a² − b², hyperbola c² = a² + b².", "hi": "a, b निकालें और c: दीर्घवृत्त c² = a² − b², अतिपरवलय c² = a² + b²।" },
+      { "en": "Eccentricity: ellipse e = c/a < 1, hyperbola e = c/a > 1.", "hi": "उत्केंद्रता: दीर्घवृत्त e = c/a < 1, अतिपरवलय e = c/a > 1।" },
+      { "en": "For y² = 4ax: focus (a,0), directrix x = −a, latus rectum 4a.", "hi": "y² = 4ax के लिए: नाभि (a,0), नियता x = −a, नाभिलंब 4a।" }
+    ],
+    "tip": { "en": "Parametric forms (x = at², y = 2at for parabola) make tangent/normal problems trivial.", "hi": "पैरामीट्रिक रूप (परवलय में x = at², y = 2at) स्पर्श रेखा/अभिलंब प्रश्न आसान बना देते हैं।" },
+    "source": "NCERT Class 11 Mathematics, Chapter 11 — Conic Sections"
+  },
+  {
+    "id": "math-trig-identities",
+    "subject": "Mathematics",
+    "topic": "Trigonometric Identities",
+    "exams": ["JEE Main", "JEE Advanced", "NEET"],
+    "keywords": ["trigonometry", "identity", "sin", "cos", "tan", "double", "angle", "sum", "formula", "quadrant"],
+    "variants": ["trigonometry formula", "त्रिकोणमिति", "sin2a formula", "tan ka formula", "trig identities"],
+    "answer": {
+      "en": "Fundamental identity: sin²θ + cos²θ = 1. Double angle: sin 2θ = 2 sin θ cos θ, cos 2θ = cos²θ − sin²θ = 1 − 2sin²θ. Sum: sin(A±B) = sin A cos B ± cos A sin B.",
+      "hi": "मूल त्रिकोणमितीय सर्वसमिका: sin²θ + cos²θ = 1। द्विगुण कोण: sin 2θ = 2 sin θ cos θ, cos 2θ = cos²θ − sin²θ = 1 − 2sin²θ। योग: sin(A±B) = sin A cos B ± cos A sin B।"
+    },
+    "steps": [
+      { "en": "Convert everything to sin/cos first when stuck.", "hi": "अटकने पर सब कुछ पहले sin/cos में बदलें।" },
+      { "en": "Use tan θ = sin θ / cos θ and sec²θ = 1 + tan²θ.", "hi": "tan θ = sin θ / cos θ और sec²θ = 1 + tan²θ प्रयोग करें।" },
+      { "en": "For products use 2 sin A cos B = sin(A+B) + sin(A−B).", "hi": "गुणनफल में 2 sin A cos B = sin(A+B) + sin(A−B) लगाएँ।" },
+      { "en": "Simplify one side at a time — never cross-multiply an identity you're proving.", "hi": "सिद्ध करते समय एक पक्ष को ही सरल करें — दोनों पक्षों को कभी गुणा न करें।" }
+    ],
+    "tip": { "en": "Memorise the 0°, 30°, 45°, 60°, 90° table cold — it saves 5+ minutes per paper.", "hi": "0°, 30°, 45°, 60°, 90° की सारणी पक्की याद रखें — प्रति पेपर 5+ मिनट बचते हैं।" },
+    "source": "NCERT Class 11 Mathematics, Chapter 3 — Trigonometric Functions"
+  }
+]

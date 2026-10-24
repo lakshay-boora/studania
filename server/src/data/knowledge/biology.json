@@ -1,0 +1,142 @@
+[
+  {
+    "id": "bio-photosynthesis",
+    "subject": "Biology",
+    "topic": "Photosynthesis",
+    "exams": ["NEET", "JEE Main"],
+    "keywords": ["photosynthesis", "chlorophyll", "light", "reaction", "calvin", "cycle", "dark", "atp", "nadph", "chloroplast"],
+    "variants": ["photosynthesis samjhao", "प्रकाश संश्लेषण", "light reaction", "calvin cycle", "dark reaction"],
+    "answer": {
+      "en": "Photosynthesis converts light energy into chemical energy: 6CO₂ + 12H₂O → C₆H₁₂O₆ + 6O₂ + 6H₂O. It has light reactions (in thylakoids: PS I & PS II, producing ATP and NADPH) and the Calvin cycle (in stroma: fixing CO₂ via RuBisCO).",
+      "hi": "प्रकाश संश्लेषण प्रकाश ऊर्जा को रासायनिक ऊर्जा में बदलता है: 6CO₂ + 12H₂O → C₆H₁₂O₆ + 6O₂ + 6H₂O। इसमें प्रकाश अभिक्रिया (थाइलेकॉइड में: PS I व PS II, ATP व NADPH उत्पन्न) और कैल्विन चक्र (स्ट्रोमा में: RuBisCO द्वारा CO₂ स्थिरीकरण) होते हैं।"
+    },
+    "steps": [
+      { "en": "Light reactions: PS II splits water (photolysis) → O₂ released; electrons flow via ETC → PS I.", "hi": "प्रकाश अभिक्रिया: PS II जल का प्रकाश अपघटन करता है → O₂ निकलती है; इलेक्ट्रॉन ETC से PS I तक जाते हैं।" },
+      { "en": "Chemiosmosis across the thylakoid membrane produces ATP; NADP⁺ is reduced to NADPH.", "hi": "थाइलेकॉइड झिल्ली में केमियोस्मोसिस से ATP बनता है; NADP⁺ का अपचयन NADPH में होता है।" },
+      { "en": "Calvin cycle (stroma): carboxylation by RuBisCO → reduction → regeneration of RuBP.", "hi": "कैल्विन चक्र (स्ट्रोमा): RuBisCO द्वारा कार्बोक्सिलीकरण → अपचयन → RuBP का पुनर्जनन।" },
+      { "en": "C4 plants (maize, sugarcane) use PEP carboxylase first; CAM plants open stomata at night.", "hi": "C4 पौधे (मक्का, गन्ना) पहले PEP कार्बोक्सिलेज़ उपयोग करते हैं; CAM पौधे रात में रंध्र खोलते हैं।" }
+    ],
+    "tip": { "en": "Only PS II splits water — a very frequent NEET one-liner trap.", "hi": "जल का विघटन केवल PS II करता है — NEET का बार-बार आने वाला ट्रैप।" },
+    "source": "NCERT Class 11 Biology, Chapter 13 — Photosynthesis in Higher Plants"
+  },
+  {
+    "id": "bio-respiration",
+    "subject": "Biology",
+    "topic": "Cellular Respiration (Glycolysis & Krebs)",
+    "exams": ["NEET", "JEE Main"],
+    "keywords": ["respiration", "glycolysis", "krebs", "cycle", "etc", "atp", "mitochondria", "aerobic", "anaerobic", "pyruvate"],
+    "variants": ["cellular respiration", "कोशिकीय श्वसन", "glycolysis", "krebs cycle", "atp yield"],
+    "answer": {
+      "en": "Glycolysis (cytoplasm) breaks glucose into 2 pyruvate, netting 2 ATP + 2 NADH. Aerobic respiration then runs the Krebs cycle (mitochondrial matrix) and ETC/oxidative phosphorylation (inner membrane) for ~36–38 ATP total. Anaerobic respiration yields 2 ATP + lactate/ethanol.",
+      "hi": "ग्लाइकोलिसिस (कोशिकाद्रव्य) में ग्लूकोज से 2 पाइरुवेट बनते हैं, शुद्ध 2 ATP + 2 NADH। वायवीय श्वसन फिर क्रेब्स चक्र (माइटोकॉन्ड्रिया मैट्रिक्स) और ETC/ऑक्सीडेटिव फॉस्फोरिलीकरण (आंतरिक झिल्ली) से कुल ~36–38 ATP देता है। अवायवीय श्वसन से 2 ATP + लैक्टेट/एथेनॉल।"
+    },
+    "steps": [
+      { "en": "Glycolysis: glucose → 2 pyruvate, substrate-level phosphorylation gives net 2 ATP.", "hi": "ग्लाइकोलिसिस: ग्लूकोज → 2 पाइरुवेट, सब्सट्रेट-स्तरीय फॉस्फोरिलीकरण से शुद्ध 2 ATP।" },
+      { "en": "Pyruvate oxidation: 2 acetyl-CoA + 2 NADH + 2 CO₂.", "hi": "पाइरुवेट ऑक्सीकरण: 2 एसिटिल-CoA + 2 NADH + 2 CO₂।" },
+      { "en": "Krebs cycle: per glucose → 6 NADH, 2 FADH₂, 2 ATP, 4 CO₂.", "hi": "क्रेब्स चक्र: प्रति ग्लूकोज → 6 NADH, 2 FADH₂, 2 ATP, 4 CO₂।" },
+      { "en": "ETC: each NADH ≈ 3 ATP, each FADH₂ ≈ 2 ATP; O₂ is the final electron acceptor.", "hi": "ETC: प्रत्येक NADH ≈ 3 ATP, FADH₂ ≈ 2 ATP; O₂ अंतिम इलेक्ट्रॉन ग्राही है।" }
+    ],
+    "tip": { "en": "RBCs lack mitochondria — they respire anaerobically and never use O₂ for ATP.", "hi": "RBC में माइटोकॉन्ड्रिया नहीं होता — वे अवायवीय श्वसन करते हैं और ATP के लिए O₂ नहीं लेते।" },
+    "source": "NCERT Class 11 Biology, Chapter 14 — Respiration in Plants"
+  },
+  {
+    "id": "bio-dna-replication",
+    "subject": "Biology",
+    "topic": "DNA Replication",
+    "exams": ["NEET"],
+    "keywords": ["dna", "replication", "semiconservative", "polymerase", "helicase", "ligase", "primase", "okazaki", "strand"],
+    "variants": ["dna replication", "डीएनए प्रतिकृति", "semiconservative replication", "dna polymerase", "okazaki fragments"],
+    "answer": {
+      "en": "DNA replication is semi-conservative (Meselson–Stahl): each new duplex keeps one parental strand. Helicase unwinds, primase lays RNA primers, DNA polymerase III extends 5'→3' continuously on the leading strand and in Okazaki fragments on the lagging strand; ligase seals the nicks.",
+      "hi": "डीएनए प्रतिकृति अर्ध-संरक्षी है (मेसेलसन–स्टाल): प्रत्येक नए द्विकुंडल में एक जनक रज्जु रहता है। हेलिकेज़ खोलता है, प्राइमेज़ RNA प्राइमर बनाता है, DNA पॉलिमरेज़ III अग्र रज्जु पर 5'→3' लगातार और पश्च रज्जु पर ओकाज़ाकी खंडों में बढ़ाता है; लाइगेज़ खाँचे जोड़ता है।"
+    },
+    "steps": [
+      { "en": "Origin of replication → helicase unwinds the double helix.", "hi": "प्रतिकृति उद्गम → हेलिकेज़ द्विकुंडल खोलता है।" },
+      { "en": "Primase synthesises a short RNA primer.", "hi": "प्राइमेज़ लघु RNA प्राइमर संश्लेषित करता है।" },
+      { "en": "DNA polymerase extends 5'→3' only — hence leading vs lagging strand asymmetry.", "hi": "DNA पॉलिमरेज़ केवल 5'→3' बढ़ाता है — इसलिए अग्र व पश्च रज्जु में असमानता।" },
+      { "en": "RNA primers removed, gaps filled, and ligase joins Okazaki fragments.", "hi": "RNA प्राइमर हटाए जाते हैं, रिक्तियाँ भरती हैं, लाइगेज़ ओकाज़ाकी खंड जोड़ता है।" }
+    ],
+    "tip": { "en": "Replication is semi-conservative, transcription is not — don't mix the two in one-liners.", "hi": "प्रतिकृति अर्ध-संरक्षी है, अनुलेखन नहीं — एक-पंक्ति उत्तरों में दोनों न मिलाएँ।" },
+    "source": "NCERT Class 12 Biology, Chapter 6 — Molecular Basis of Inheritance"
+  },
+  {
+    "id": "bio-human-heart",
+    "subject": "Biology",
+    "topic": "Human Heart & Cardiac Cycle",
+    "exams": ["NEET"],
+    "keywords": ["heart", "cardiac", "cycle", "atrium", "ventricle", "valve", "blood", "circulation", "systole", "diastole", "ecg"],
+    "variants": ["human heart", "मानव हृदय", "cardiac cycle", "double circulation", "systole diastole"],
+    "answer": {
+      "en": "The human heart is a four-chambered double pump: the right side sends deoxygenated blood to the lungs (pulmonary circuit), the left side pumps oxygenated blood to the body (systemic circuit). One cardiac cycle lasts 0.8 s (systole + diastole) with a normal rate of 72 beats/min.",
+      "hi": "मानव हृदय चार-कक्षीय दोहरा पंप है: दायाँ भाग अवऑक्सीजनित रक्त फेफड़ों को (फुफ्फुसीय परिसंचरण), बायाँ भाग ऑक्सीजनित रक्त शरीर को (दैहिक परिसंचरण) भेजता है। एक हृदय चक्र 0.8 s (सिस्टोल + डायस्टोल), सामान्य दर 72 बार/मिनट।"
+    },
+    "steps": [
+      { "en": "Blood flow: RA → right ventricle → pulmonary artery → lungs → LA → left ventricle → aorta.", "hi": "रक्त प्रवाह: दायाँ अलिंद → दायाँ निलय → फुफ्फुसीय धमनी → फेफड़े → बायाँ अलिंद → बायाँ निलय → महाधमनी।" },
+      { "en": "Valves prevent backflow: tricuspid (right), bicuspid/mitral (left), semilunar valves at exits.", "hi": "कपाट पश्चप्रवाह रोकते हैं: ट्राइकस्पिड (दाएँ), बाइकस्पिड/माइट्रल (बाएँ), निकास पर अर्धचंद्राकार कपाट।" },
+      { "en": "SA node (pacemaker) initiates the impulse; AV node delays it slightly.", "hi": "SA नोड (पेसमेकर) आवेग शुरू करता है; AV नोड उसे थोड़ा विलंबित करता है।" },
+      { "en": "ECG waves: P (atrial depolarisation), QRS (ventricular depolarisation), T (repolarisation).", "hi": "ECG तरंगें: P (अलिंद विध्रुवण), QRS (निलय विध्रुवण), T (पुनर्ध्रुवण)।" }
+    ],
+    "tip": { "en": "Cardiac output = stroke volume × heart rate ≈ 70 mL × 72 ≈ 5 L/min.", "hi": "हृदय निर्गम = स्ट्रोक आयतन × हृदय दर ≈ 70 mL × 72 ≈ 5 L/मिनट।" },
+    "source": "NCERT Class 11 Biology, Chapter 18 — Body Fluids and Circulation"
+  },
+  {
+    "id": "bio-mendel",
+    "subject": "Biology",
+    "topic": "Mendelian Genetics",
+    "exams": ["NEET"],
+    "keywords": ["mendel", "genetics", "law", "segregation", "independent", "assortment", "dominant", "recessive", "punnett", "ratio"],
+    "variants": ["mendel laws", "मेंडल के नियम", "law of segregation", "monohybrid cross", "dihybrid ratio"],
+    "answer": {
+      "en": "Mendel's laws: (1) Law of Dominance, (2) Law of Segregation — alleles separate during gamete formation, (3) Law of Independent Assortment — genes on different chromosomes assort independently. Monohybrid F₂ ratio 3:1; dihybrid F₂ ratio 9:3:3:1.",
+      "hi": "मेंडल के नियम: (1) प्रभाविता का नियम, (2) पृथक्करण का नियम — युग्मक निर्माण में युग्मविकल्पी अलग होते हैं, (3) स्वतंत्र अपव्यूहन का नियम — भिन्न गुणसूत्रों के जीन स्वतंत्र रूप से वितरित होते हैं। एकसंकर F₂ अनुपात 3:1; द्विसंकर F₂ अनुपात 9:3:3:1।"
+    },
+    "steps": [
+      { "en": "Assign alleles (T = tall dominant, t = dwarf recessive).", "hi": "युग्मविकल्पी निर्धारित करें (T = लंबा प्रभावी, t = बौना अप्रभावी)।" },
+      { "en": "Write parental genotypes and the gametes they form.", "hi": "जनक जीनोटाइप और उनसे बनने वाले युग्मक लिखें।" },
+      { "en": "Draw the Punnett square for the F₁ cross.", "hi": "F₁ संकरण के लिए पनेट वर्ग बनाएँ।" },
+      { "en": "Self-cross F₁ to get F₂ phenotypic and genotypic ratios.", "hi": "F₂ फीनोटाइपिक व जीनोटाइपिक अनुपात हेतु F₁ का स्व-संकरण करें।" }
+    ],
+    "tip": { "en": "Test cross (cross with homozygous recessive) reveals whether a dominant phenotype is homozygous or heterozygous.", "hi": "परीक्षण संकरण (समयुग्मजी अप्रभावी से) बताता है कि प्रभावी लक्षण समयुग्मजी है या विषमयुग्मजी।" },
+    "source": "NCERT Class 12 Biology, Chapter 5 — Principles of Inheritance and Variation"
+  },
+  {
+    "id": "bio-human-digestion",
+    "subject": "Biology",
+    "topic": "Human Digestive System & Enzymes",
+    "exams": ["NEET"],
+    "keywords": ["digestion", "digestive", "enzyme", "amylase", "pepsin", "trypsin", "lipase", "stomach", "intestine", "bile"],
+    "variants": ["digestive system", "पाचन तंत्र", "digestive enzymes", "pepsin trypsin", "bile ka kaam"],
+    "answer": {
+      "en": "Digestion proceeds mouth → stomach → small intestine. Key enzymes: salivary amylase (starch → maltose), pepsin in acidic stomach (proteins → peptides), pancreatic trypsin and lipase, and intestinal maltase/sucrase/lactase. Bile emulsifies fats but contains no enzymes.",
+      "hi": "पाचन मुँह → आमाशय → छोटी आंत में होता है। मुख्य एंजाइम: लार एमाइलेज़ (स्टार्च → माल्टोज़), अम्लीय आमाशय में पेप्सिन (प्रोटीन → पेप्टाइड), अग्न्याशयी ट्रिप्सिन व लाइपेज़, तथा आंत्र माल्टेज़/सुक्रेज़/लैक्टेज़। पित्त वसा का पायसीकरण करता है पर उसमें एंजाइम नहीं होते।"
+    },
+    "steps": [
+      { "en": "Mouth: salivary amylase acts at pH ~7 on starch.", "hi": "मुँह: लार एमाइलेज़ pH ~7 पर स्टार्च पर क्रिया करता है।" },
+      { "en": "Stomach: HCl makes pH ~1.8; pepsinogen → pepsin digests proteins.", "hi": "आमाशय: HCl से pH ~1.8; पेप्सिनोजन → पेप्सिन प्रोटीन पचाता है।" },
+      { "en": "Duodenum: bile emulsifies fat; pancreatic amylase, trypsin, lipase enter.", "hi": "ग्रहणी: पित्त वसा का पायसीकरण; अग्न्याशयी एमाइलेज़, ट्रिप्सिन, लिपेज़ पहुँचते हैं।" },
+      { "en": "Ileum: final digestion and absorption via villi; colon absorbs water.", "hi": "इलियम: अंतिम पाचन व विली से अवशोषण; बृहदांत्र जल अवशोषित करता है।" }
+    ],
+    "tip": { "en": "Bile has no digestive enzymes — it only emulsifies fats and activates lipase.", "hi": "पित्त में पाचक एंजाइम नहीं होते — वह केवल वसा का पायसीकरण और लाइपेज़ सक्रियण करता है।" },
+    "source": "NCERT Class 11 Biology, Chapter 16 — Digestion and Absorption"
+  },
+  {
+    "id": "bio-immunity",
+    "subject": "Biology",
+    "topic": "Immunity & Vaccines",
+    "exams": ["NEET", "UPSC"],
+    "keywords": ["immunity", "immune", "antibody", "antigen", "vaccine", "lymphocyte", "b", "t", "cells", "innate", "acquired"],
+    "variants": ["immunity kya hai", "प्रतिरक्षा", "vaccine kaise kaam karta hai", "antibody antigen", "active passive immunity"],
+    "answer": {
+      "en": "Immunity is of two types: innate (non-specific, present from birth — barriers, phagocytes) and acquired (specific, memory-based — B and T lymphocytes). Active immunity develops after infection or vaccination; passive immunity is transferred ready-made (mother's milk, antiserum).",
+      "hi": "प्रतिरक्षा दो प्रकार की होती है: जन्मजात (अविशिष्ट, जन्म से — अवरोध, भक्षकाणु) और अर्जित (विशिष्ट, स्मृति-आधारित — B व T लसीकाणु)। सक्रिय प्रतिरक्षा संक्रमण या टीकाकरण के बाद बनती है; निष्क्रिय प्रतिरक्षा तैयार स्थानांतरित होती है (माँ का दूध, प्रतिरक्षी सीरम)।"
+    },
+    "steps": [
+      { "en": "Antigen enters → macrophages present it to helper T cells.", "hi": "प्रतिजन प्रवेश → मैक्रोफेज सहायक T कोशिकाओं को प्रस्तुत करते हैं।" },
+      { "en": "B cells are activated → differentiate into plasma cells → secrete antibodies.", "hi": "B कोशिकाएँ सक्रिय → प्लाज़्मा कोशिकाओं में विभेदित → प्रतिरक्षी स्रावित।" },
+      { "en": "Memory B and T cells persist → faster, stronger secondary response.", "hi": "स्मृति B व T कोशिकाएँ बनी रहती हैं → तेज़ व प्रबल द्वितीयक अनुक्रिया।" },
+      { "en": "Vaccines mimic this safely using killed/attenuated pathogens or toxoids.", "hi": "टीके मृत/क्षीण रोगजनक या टॉक्सॉइड से इसे सुरक्षित रूप से अनुकरण करते हैं।" }
+    ],
+    "tip": { "en": "Colostrum provides passive immunity via IgA — a frequently asked NEET fact.", "hi": "कोलोस्ट्रम IgA से निष्क्रिय प्रतिरक्षा देता है — NEET में बार-बार पूछा जाने वाला तथ्य।" },
+    "source": "NCERT Class 12 Biology, Chapter 8 — Human Health and Disease"
+  }
+]
