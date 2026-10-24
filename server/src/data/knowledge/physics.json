@@ -1,0 +1,160 @@
+[
+  {
+    "id": "phy-newton-second",
+    "subject": "Physics",
+    "topic": "Newton's Second Law of Motion",
+    "exams": ["JEE Main", "JEE Advanced", "NEET"],
+    "keywords": ["newton", "second", "law", "force", "acceleration", "mass", "motion", "fma"],
+    "variants": ["newton ka doosra niyam", "न्यूटन का दूसरा नियम", "newton second law", "f=ma", "force mass acceleration", "bal aur tvaran"],
+    "answer": {
+      "en": "Newton's second law states that the rate of change of momentum of a body is directly proportional to the applied net force and takes place in the direction of the force. For constant mass this reduces to F = ma.",
+      "hi": "न्यूटन का दूसरा नियम कहता है कि किसी वस्तु के संवेग (momentum) में परिवर्तन की दर लगाए गए बल के समानुपाती होती है और परिवर्तन बल की दिशा में होता है। स्थिर द्रव्यमान के लिए यह F = ma बन जाता है।"
+    },
+    "steps": [
+      { "en": "Momentum is p = mv. Rate of change: dp/dt = m(dv/dt) = ma (for constant m).", "hi": "संवेग p = mv है। परिवर्तन की दर: dp/dt = m(dv/dt) = ma (स्थिर द्रव्यमान के लिए)।" },
+      { "en": "Newton's law says dp/dt ∝ F_net, so F_net = k·ma. SI units make k = 1.", "hi": "नियम कहता है dp/dt ∝ F_net, अतः F_net = k·ma। SI इकाइयों में k = 1 हो जाता है।" },
+      { "en": "Hence F = ma: force (N) = mass (kg) × acceleration (m/s²). It is a vector equation — direction of F = direction of a.", "hi": "इसलिए F = ma: बल (N) = द्रव्यमान (kg) × त्वरण (m/s²)। यह सदिश समीकरण है — F की दिशा = a की दिशा।" },
+      { "en": "For variable mass (rockets), use the full form F = dp/dt and apply impulse-momentum.", "hi": "परिवर्ती द्रव्यमान (रॉकेट) के लिए पूर्ण रूप F = dp/dt प्रयोग करें और आवेग-संवेग प्रमेय लगाएँ।" }
+    ],
+    "tip": { "en": "In pulley and lift problems, always fix a sign convention first and treat a as common for the string-connected masses.", "hi": "घिरनी और लिफ्ट वाले प्रश्नों में पहले चिह्न परिपाटी तय करें, और धागे से जुड़े द्रव्यमानों का त्वरण समान मानें।" },
+    "source": "NCERT Class 11 Physics, Chapter 5 — Laws of Motion"
+  },
+  {
+    "id": "phy-newton-first",
+    "subject": "Physics",
+    "topic": "Newton's First Law (Inertia)",
+    "exams": ["JEE Main", "NEET"],
+    "keywords": ["newton", "first", "law", "inertia", "rest", "uniform", "motion"],
+    "variants": ["newton ka pehla niyam", "न्यूटन का पहला नियम", "law of inertia", "jadatva"],
+    "answer": {
+      "en": "Newton's first law (law of inertia): a body continues in its state of rest or of uniform motion in a straight line unless acted upon by a net external force.",
+      "hi": "न्यूटन का पहला नियम (जड़त्व का नियम): कोई वस्तु अपनी विराम अवस्था या एकसमान सीधी गति की अवस्था में तब तक बनी रहती है जब तक उस पर कोई बाहरी असंतुलित बल न लगे।"
+    },
+    "steps": [
+      { "en": "State of motion changes only due to a net external force — this defines inertia.", "hi": "गति की अवस्था केवल बाहरी असंतुलित बल से बदलती है — यही जड़त्व की परिभाषा है।" },
+      { "en": "Inertia depends only on mass, not velocity.", "hi": "जड़त्व केवल द्रव्यमान पर निर्भर है, वेग पर नहीं।" },
+      { "en": "It is valid only in an inertial (non-accelerating) frame of reference.", "hi": "यह केवल जड़त्वीय (त्वरण-रहित) निर्देश तंत्र में मान्य है।" }
+    ],
+    "tip": { "en": "Seat-belt and bus-start examples are classic 'apply the law' questions — mention inertia of the passenger.", "hi": "सीट बेल्ट और बस के अचानक चलने के उदाहरण प्रसिद्ध हैं — यात्री के जड़त्व का उल्लेख करें।" },
+    "source": "NCERT Class 11 Physics, Chapter 5 — Laws of Motion"
+  },
+  {
+    "id": "phy-newton-third",
+    "subject": "Physics",
+    "topic": "Newton's Third Law",
+    "exams": ["JEE Main", "NEET"],
+    "keywords": ["newton", "third", "law", "action", "reaction", "equal", "opposite"],
+    "variants": ["newton ka teesra niyam", "न्यूटन का तीसरा नियम", "action reaction", "kriya pratikriya"],
+    "answer": {
+      "en": "To every action there is always an equal and opposite reaction. Forces always occur in pairs acting on two different bodies, so they never cancel out on a single body.",
+      "hi": "हर क्रिया के बराबर और विपरीत दिशा में प्रतिक्रिया होती है। बल हमेशा जोड़ों में दो अलग-अलग वस्तुओं पर लगते हैं, इसलिए एक ही वस्तु पर वे कभी निरस्त नहीं होते।"
+    },
+    "steps": [
+      { "en": "Identify the two interacting bodies — action acts on one, reaction on the other.", "hi": "दो परस्पर क्रिया करने वाली वस्तुएँ पहचानें — क्रिया एक पर, प्रतिक्रिया दूसरे पर।" },
+      { "en": "Action and reaction are equal in magnitude, opposite in direction, same type of force.", "hi": "क्रिया और प्रतिक्रिया परिमाण में समान, दिशा में विपरीत और एक ही प्रकार के बल होते हैं।" },
+      { "en": "Because they act on different bodies, they do not form a balanced pair — motion is possible.", "hi": "चूँकि वे अलग-अलग वस्तुओं पर लगते हैं, संतुलित युग्म नहीं बनते — इसलिए गति संभव है।" }
+    ],
+    "tip": { "en": "Walking, recoil of a gun and rocket propulsion are the three must-know applications.", "hi": "चलना, बंदूक का पीछे धक्का और रॉकेट की गति — तीन अनिवार्य अनुप्रयोग।" },
+    "source": "NCERT Class 11 Physics, Chapter 5 — Laws of Motion"
+  },
+  {
+    "id": "phy-projectile",
+    "subject": "Physics",
+    "topic": "Projectile Motion",
+    "exams": ["JEE Main", "JEE Advanced", "NEET"],
+    "keywords": ["projectile", "motion", "range", "height", "time", "flight", "trajectory", "angle"],
+    "variants": ["projectile motion samjhao", "prakshepya gati", "प्रक्षेप्य गति", "range formula", "max height", "u2 sin2theta/g"],
+    "answer": {
+      "en": "Projectile motion is two independent one-dimensional motions: uniform velocity along the horizontal (no acceleration) and uniformly accelerated motion vertically (a = −g). The path is a parabola.",
+      "hi": "प्रक्षेप्य गति दो स्वतंत्र एक-आयामी गतियों का संयोजन है: क्षैतिज दिशा में एकसमान वेग (त्वरण शून्य) और ऊर्ध्वाधर दिशा में एकसमान त्वरित गति (a = −g)। पथ परवलय होता है।"
+    },
+    "steps": [
+      { "en": "Resolve velocity: uₓ = u cos θ, u_y = u sin θ.", "hi": "वेग के घटक: uₓ = u cos θ, u_y = u sin θ।" },
+      { "en": "Time of flight T = 2u sin θ / g.", "hi": "उड़ान का समय T = 2u sin θ / g।" },
+      { "en": "Maximum height H = u² sin²θ / (2g).", "hi": "अधिकतम ऊँचाई H = u² sin²θ / (2g)।" },
+      { "en": "Horizontal range R = u² sin 2θ / g — maximum at θ = 45°.", "hi": "क्षैतिज परास R = u² sin 2θ / g — θ = 45° पर अधिकतम।" }
+    ],
+    "tip": { "en": "For the same range there are two complementary angles θ and (90° − θ).", "hi": "एक ही परास के लिए दो पूरक कोण θ और (90° − θ) संभव हैं।" },
+    "source": "NCERT Class 11 Physics, Chapter 4 — Motion in a Plane"
+  },
+  {
+    "id": "phy-ohms-law",
+    "subject": "Physics",
+    "topic": "Ohm's Law",
+    "exams": ["JEE Main", "NEET", "UPSC"],
+    "keywords": ["ohm", "law", "current", "voltage", "resistance", "potential", "difference", "v=ir"],
+    "variants": ["ohm ka niyam", "ओम का नियम", "v=ir", "voltage current resistance", "dhara pratirodh"],
+    "answer": {
+      "en": "Ohm's law states that at constant temperature, the current through a conductor is directly proportional to the potential difference across its ends: V = IR.",
+      "hi": "ओम का नियम: स्थिर ताप पर चालक से बहने वाली धारा उसके सिरों के विभवांतर के समानुपाती होती है — V = IR।"
+    },
+    "steps": [
+      { "en": "V ∝ I at constant temperature ⇒ V = IR, where R is resistance in ohms (Ω).", "hi": "स्थिर ताप पर V ∝ I ⇒ V = IR, जहाँ R प्रतिरोध है (Ω में)।" },
+      { "en": "Resistance R = ρL/A — depends on material (ρ), length (L) and cross-section (A).", "hi": "प्रतिरोध R = ρL/A — पदार्थ (ρ), लंबाई (L) और अनुप्रस्थ काट (A) पर निर्भर।" },
+      { "en": "Series: R = R₁ + R₂. Parallel: 1/R = 1/R₁ + 1/R₂.", "hi": "श्रेणी में: R = R₁ + R₂। समानांतर में: 1/R = 1/R₁ + 1/R₂।" },
+      { "en": "Not universal — applies to ohmic conductors, not to diodes/electrolytes.", "hi": "यह सार्वभौमिक नहीं है — केवल ओमीय चालकों पर लागू, डायोड/विद्युत अपघट्य पर नहीं।" }
+    ],
+    "tip": { "en": "V–I graph is a straight line through the origin for ohmic materials; its slope = R.", "hi": "ओमीय पदार्थ के लिए V–I ग्राफ मूल बिंदु से जाने वाली सरल रेखा है; ढाल = R।" },
+    "source": "NCERT Class 12 Physics, Chapter 3 — Current Electricity"
+  },
+  {
+    "id": "phy-photoelectric",
+    "subject": "Physics",
+    "topic": "Photoelectric Effect",
+    "exams": ["JEE Main", "JEE Advanced", "NEET"],
+    "keywords": ["photoelectric", "effect", "photon", "work", "function", "threshold", "frequency", "einstein", "stopping", "potential"],
+    "variants": ["photoelectric effect", "प्रकाश विद्युत प्रभाव", "einstein equation", "work function", "threshold frequency"],
+    "answer": {
+      "en": "When light of suitable frequency strikes a metal surface, electrons are emitted instantaneously. Einstein explained it with photons: hν = φ + K_max, where φ is the work function.",
+      "hi": "जब उपयुक्त आवृत्ति का प्रकाश धातु की सतह पर गिरता है, तो इलेक्ट्रॉन तुरंत उत्सर्जित होते हैं। आइंस्टीन ने फोटॉन से समझाया: hν = φ + K_max, जहाँ φ कार्य फलन है।"
+    },
+    "steps": [
+      { "en": "Light behaves as photons of energy E = hν.", "hi": "प्रकाश hν ऊर्जा वाले फोटॉन के रूप में व्यवहार करता है।" },
+      { "en": "An electron escapes if hν ≥ φ (ν ≥ threshold frequency ν₀).", "hi": "यदि hν ≥ φ हो तो इलेक्ट्रॉन बाहर निकलता है (ν ≥ देहली आवृत्ति ν₀)।" },
+      { "en": "Maximum kinetic energy: K_max = hν − φ = e·V₀, V₀ = stopping potential.", "hi": "अधिकतम गतिज ऊर्जा: K_max = hν − φ = e·V₀, जहाँ V₀ निरोधी विभव है।" },
+      { "en": "Intensity changes only the *number* of electrons, not K_max.", "hi": "तीव्रता केवल इलेक्ट्रॉनों की *संख्या* बदलती है, K_max नहीं।" }
+    ],
+    "tip": { "en": "The K_max vs ν graph is a straight line with slope h and x-intercept ν₀ — a favourite JEE question.", "hi": "K_max बनाम ν का ग्राफ सरल रेखा है जिसकी ढाल h और x-अंतःखंड ν₀ है — JEE का पसंदीदा प्रश्न।" },
+    "source": "NCERT Class 12 Physics, Chapter 11 — Dual Nature of Radiation and Matter"
+  },
+  {
+    "id": "phy-thermo-first",
+    "subject": "Physics",
+    "topic": "First Law of Thermodynamics",
+    "exams": ["JEE Main", "JEE Advanced", "NEET"],
+    "keywords": ["thermodynamics", "first", "law", "heat", "work", "internal", "energy", "dq", "du"],
+    "variants": ["thermodynamics ka pehla niyam", "ऊष्मागतिकी का प्रथम नियम", "first law thermodynamics", "dq=du+dw"],
+    "answer": {
+      "en": "The first law of thermodynamics is conservation of energy for heat processes: dQ = dU + dW. Heat supplied to a system goes into raising its internal energy and doing work by it.",
+      "hi": "ऊष्मागतिकी का प्रथम नियम ऊर्जा संरक्षण का ही रूप है: dQ = dU + dW। सिस्टम को दी गई ऊष्मा उसकी आंतरिक ऊर्जा बढ़ाने और कार्य करने में व्यय होती है।"
+    },
+    "steps": [
+      { "en": "dQ > 0 when heat enters the system; dW > 0 when work is done BY the system.", "hi": "सिस्टम में ऊष्मा जाने पर dQ > 0; सिस्टम द्वारा कार्य होने पर dW > 0।" },
+      { "en": "dU depends only on initial and final states (state function); Q and W are path functions.", "hi": "dU केवल प्रारंभिक और अंतिम अवस्था पर निर्भर है (अवस्था फलन); Q और W पथ फलन हैं।" },
+      { "en": "Isothermal: dU = 0 ⇒ Q = W. Adiabatic: Q = 0 ⇒ dU = −W.", "hi": "समतापी: dU = 0 ⇒ Q = W। रुद्धोष्म: Q = 0 ⇒ dU = −W।" },
+      { "en": "Cyclic process: dU = 0 ⇒ net Q = net W (area of the P–V loop).", "hi": "चक्रीय प्रक्रिया: dU = 0 ⇒ कुल Q = कुल W (P–V लूप का क्षेत्रफल)।" }
+    ],
+    "tip": { "en": "Always draw the P–V diagram — for a cycle, area enclosed equals net work done.", "hi": "हमेशा P–V आरेख बनाएँ — चक्र में घिरा क्षेत्रफल कुल कार्य के बराबर होता है।" },
+    "source": "NCERT Class 11 Physics, Chapter 12 — Thermodynamics"
+  },
+  {
+    "id": "phy-lens-formula",
+    "subject": "Physics",
+    "topic": "Lens Formula & Magnification",
+    "exams": ["JEE Main", "NEET"],
+    "keywords": ["lens", "formula", "mirror", "focal", "length", "magnification", "image", "object", "distance", "optics"],
+    "variants": ["lens formula", "लेंस सूत्र", "1/f=1/v-1/u", "magnification formula", "focal length"],
+    "answer": {
+      "en": "For a thin lens: 1/v − 1/u = 1/f, with cartesian sign convention. Magnification m = v/u (lens) or m = −v/u (mirror).",
+      "hi": "पतले लेंस के लिए: 1/v − 1/u = 1/f (कार्तीय चिह्न परिपाटी में)। आवर्धन m = v/u (लेंस) या m = −v/u (दर्पण)।"
+    },
+    "steps": [
+      { "en": "Measure all distances from the optical centre, positive in the direction of incident light.", "hi": "सभी दूरियाँ प्रकाशिक केंद्र से मापें, आपतित प्रकाश की दिशा में धनात्मक।" },
+      { "en": "Convex lens f > 0, concave lens f < 0; real object u < 0.", "hi": "उत्तल लेंस f > 0, अवतल लेंस f < 0; वास्तविक वस्तु u < 0।" },
+      { "en": "Solve for v, then m = v/u. Negative m ⇒ inverted image.", "hi": "v निकालें, फिर m = v/u। ऋणात्मक m ⇒ उल्टा प्रतिबिंब।" },
+      { "en": "Power P = 1/f (in metres), unit dioptre (D).", "hi": "क्षमता P = 1/f (मीटर में), इकाई डायोप्टर (D)।" }
+    ],
+    "tip": { "en": "Sign convention errors cause most lost marks — write 'u = −20 cm' explicitly before substituting.", "hi": "चिह्न परिपाटी की गलती से सबसे ज़्यादा अंक कटते हैं — मान रखने से पहले 'u = −20 cm' स्पष्ट लिखें।" },
+    "source": "NCERT Class 12 Physics, Chapter 9 — Ray Optics and Optical Instruments"
+  }
+]

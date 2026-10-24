@@ -1,0 +1,182 @@
+[
+  {
+    "id": "chem-mole-concept",
+    "subject": "Chemistry",
+    "topic": "Mole Concept",
+    "exams": ["JEE Main", "JEE Advanced", "NEET"],
+    "keywords": ["mole", "concept", "avogadro", "number", "molar", "mass", "particles", "atoms", "molecules", "stoichiometry"],
+    "variants": ["mole concept samjhao", "मोल संकल्पना", "avogadro number", "mole kya hai", "6.022"],
+    "answer": {
+      "en": "One mole is the amount of substance containing exactly 6.022 × 10²³ particles (Avogadro's number). Moles n = given mass / molar mass = number of particles / N_A.",
+      "hi": "एक मोल उस पदार्थ की मात्रा है जिसमें ठीक 6.022 × 10²³ कण (एवोगैड्रो संख्या) होते हैं। मोल n = दिया गया द्रव्यमान / मोलर द्रव्यमान = कणों की संख्या / N_A।"
+    },
+    "steps": [
+      { "en": "Write the formula: n = m / M (grams ÷ g/mol).", "hi": "सूत्र लिखें: n = m / M (ग्राम ÷ g/mol)।" },
+      { "en": "Convert to particles: N = n × 6.022 × 10²³.", "hi": "कणों में बदलें: N = n × 6.022 × 10²³।" },
+      { "en": "For gases at STP: volume = n × 22.4 L.", "hi": "STP पर गैसों के लिए: आयतन = n × 22.4 L।" },
+      { "en": "Use mole ratios from the balanced equation for stoichiometry.", "hi": "स्टॉइकियोमेट्री के लिए संतुलित समीकरण से मोल अनुपात प्रयोग करें।" }
+    ],
+    "tip": { "en": "Always balance the equation before using mole ratios — the #1 error in stoichiometry.", "hi": "मोल अनुपात से पहले समीकरण संतुलित करें — स्टॉइकियोमेट्री की सबसे बड़ी गलती यही है।" },
+    "source": "NCERT Class 11 Chemistry, Chapter 1 — Some Basic Concepts of Chemistry"
+  },
+  {
+    "id": "chem-periodic-trends",
+    "subject": "Chemistry",
+    "topic": "Periodic Trends",
+    "exams": ["JEE Main", "NEET"],
+    "keywords": ["periodic", "trend", "atomic", "radius", "ionisation", "electronegativity", "electron", "affinity", "table"],
+    "variants": ["periodic trends", "आवर्त सारणी प्रवृत्तियाँ", "electronegativity trend", "atomic radius trend", "ionization energy"],
+    "answer": {
+      "en": "Across a period (left → right): atomic radius decreases, ionisation energy and electronegativity increase. Down a group: radius increases, ionisation energy and electronegativity decrease.",
+      "hi": "आवर्त में बाएँ से दाएँ: परमाणु त्रिज्या घटती है, आयनन ऊर्जा और विद्युतऋणात्मकता बढ़ती है। समूह में नीचे जाने पर: त्रिज्या बढ़ती है, आयनन ऊर्जा और विद्युतऋणात्मकता घटती है।"
+    },
+    "steps": [
+      { "en": "Across a period, nuclear charge (Z) increases but shell stays the same ⇒ stronger pull ⇒ smaller radius.", "hi": "आवर्त में नाभिकीय आवेश बढ़ता है पर कोश वही रहता है ⇒ अधिक आकर्षण ⇒ छोटी त्रिज्या।" },
+      { "en": "Smaller radius ⇒ electrons held tighter ⇒ higher ionisation energy and electronegativity.", "hi": "छोटी त्रिज्या ⇒ इलेक्ट्रॉन अधिक कसकर बंधे ⇒ अधिक आयनन ऊर्जा व विद्युतऋणात्मकता।" },
+      { "en": "Down a group, new shells are added ⇒ shielding increases ⇒ radius increases.", "hi": "समूह में नीचे नए कोश जुड़ते हैं ⇒ परिरक्षण बढ़ता ⇒ त्रिज्या बढ़ती है।" },
+      { "en": "Exceptions: noble gases have very high IE; Ga < Al radius due to d-orbital shielding.", "hi": "अपवाद: उत्कृष्ट गैसों की आयनन ऊर्जा बहुत उच्च; d-कक्षक परिरक्षण से Ga की त्रिज्या Al से कम।" }
+    ],
+    "tip": { "en": "Fluorine is the most electronegative element (not oxygen) — a common trap.", "hi": "सबसे अधिक विद्युतऋणात्मक तत्व फ्लोरीन है (ऑक्सीजन नहीं) — सामान्य ट्रैप।" },
+    "source": "NCERT Class 11 Chemistry, Chapter 3 — Classification of Elements and Periodicity"
+  },
+  {
+    "id": "chem-ideal-gas",
+    "subject": "Chemistry",
+    "topic": "Ideal Gas Equation",
+    "exams": ["JEE Main", "NEET"],
+    "keywords": ["ideal", "gas", "equation", "pv", "nrt", "pressure", "volume", "temperature", "boyle", "charles"],
+    "variants": ["ideal gas equation", "आदर्श गैस समीकरण", "pv=nrt", "gas laws", "combined gas law"],
+    "answer": {
+      "en": "The ideal gas equation is PV = nRT, combining Boyle's law (PV = constant), Charles's law (V/T = constant) and Avogadro's law (V/n = constant). R = 8.314 J mol⁻¹K⁻¹.",
+      "hi": "आदर्श गैस समीकरण PV = nRT है, जो बॉयल के नियम (PV = स्थिरांक), चार्ल्स के नियम (V/T = स्थिरांक) और एवोगैड्रो नियम (V/n = स्थिरांक) का संयोजन है। R = 8.314 J mol⁻¹K⁻¹।"
+    },
+    "steps": [
+      { "en": "Boyle's law (T const): P₁V₁ = P₂V₂.", "hi": "बॉयल नियम (T स्थिर): P₁V₁ = P₂V₂।" },
+      { "en": "Charles's law (P const): V₁/T₁ = V₂/T₂ (T in kelvin!).", "hi": "चार्ल्स नियम (P स्थिर): V₁/T₁ = V₂/T₂ (T केल्विन में!)।" },
+      { "en": "Combine: P₁V₁/T₁ = P₂V₂/T₂ for a fixed amount of gas.", "hi": "संयोजन: P₁V₁/T₁ = P₂V₂/T₂ (निश्चित मात्रा के लिए)।" },
+      { "en": "Include moles: PV = nRT; density ρ = PM/RT.", "hi": "मोल सहित: PV = nRT; घनत्व ρ = PM/RT।" }
+    ],
+    "tip": { "en": "Never plug Celsius into gas laws — convert to kelvin by adding 273.15 first.", "hi": "गैस नियमों में सेल्सियस कभी न डालें — पहले 273.15 जोड़कर केल्विन में बदलें।" },
+    "source": "NCERT Class 11 Chemistry, Chapter 5 — States of Matter"
+  },
+  {
+    "id": "chem-acids-bases",
+    "subject": "Chemistry",
+    "topic": "Acids, Bases and pH",
+    "exams": ["JEE Main", "NEET"],
+    "keywords": ["acid", "base", "ph", "poh", "kw", "hydrogen", "ion", "concentration", "buffer", "neutralisation"],
+    "variants": ["ph kya hai", "pH की परिभाषा", "acid base", "ph formula", "poh", "buffer solution"],
+    "answer": {
+      "en": "pH = −log[H⁺]. At 25 °C, pH + pOH = 14 and pH < 7 is acidic, = 7 neutral, > 7 basic. Strong acids/bases dissociate completely; weak ones partially (use Ka/Kb).",
+      "hi": "pH = −log[H⁺]। 25 °C पर pH + pOH = 14; pH < 7 अम्लीय, = 7 उदासीन, > 7 क्षारीय। प्रबल अम्ल/क्षार पूर्ण रूप से वियोजित होते हैं; दुर्बल आंशिक (Ka/Kb प्रयोग करें)।"
+    },
+    "steps": [
+      { "en": "Find [H⁺] from the acid's concentration (× basicity for strong acids).", "hi": "अम्ल की सांद्रता से [H⁺] निकालें (प्रबल अम्ल में × क्षारकता)।" },
+      { "en": "Take pH = −log[H⁺].", "hi": "pH = −log[H⁺] लगाएँ।" },
+      { "en": "For weak acids use [H⁺] = √(Ka·C).", "hi": "दुर्बल अम्लों के लिए [H⁺] = √(Ka·C)।" },
+      { "en": "Then pOH = 14 − pH; [OH⁻] = 10^(−pOH).", "hi": "फिर pOH = 14 − pH; [OH⁻] = 10^(−pOH)।" }
+    ],
+    "tip": { "en": "A tenfold change in [H⁺] changes pH by exactly 1 — use this for quick mental checks.", "hi": "[H⁺] में दस गुना परिवर्तन से pH ठीक 1 बदलता है — मानसिक जाँच के लिए उपयोगी।" },
+    "source": "NCERT Class 11 Chemistry, Chapter 7 — Equilibrium (Ionic)"
+  },
+  {
+    "id": "chem-chemical-bonding",
+    "subject": "Chemistry",
+    "topic": "Chemical Bonding (Hybridisation & VSEPR)",
+    "exams": ["JEE Main", "JEE Advanced", "NEET"],
+    "keywords": ["chemical", "bonding", "hybridisation", "vsepr", "shape", "geometry", "sigma", "pi", "bond", "orbital", "sp3"],
+    "variants": ["hybridisation samjhao", "संकरण", "vsepr theory", "sp3 sp2 sp", "bond angle", "molecular shape"],
+    "answer": {
+      "en": "Hybridisation mixes atomic orbitals to give equivalent hybrid orbitals: sp (linear, 180°), sp² (trigonal planar, 120°), sp³ (tetrahedral, 109.5°). VSEPR then predicts shape from electron-pair repulsion (lone pair > bond pair).",
+      "hi": "संकरण परमाण्विक कक्षकों को मिलाकर समतुल्य संकर कक्षक बनाता है: sp (रैखिक, 180°), sp² (त्रिकोणीय समतल, 120°), sp³ (चतुष्फलकीय, 109.5°)। VSEPR इलेक्ट्रॉन युग्म प्रतिकर्षण (एकाकी युग्म > बंध युग्म) से आकृति बताता है।"
+    },
+    "steps": [
+      { "en": "Count steric number = σ bonds + lone pairs on the central atom.", "hi": "स्टीरिक संख्या = σ बंध + केंद्रीय परमाणु पर एकाकी युग्म।" },
+      { "en": "SN 2 → sp, 3 → sp², 4 → sp³, 5 → sp³d, 6 → sp³d².", "hi": "SN 2 → sp, 3 → sp², 4 → sp³, 5 → sp³d, 6 → sp³d²।" },
+      { "en": "Lone pairs compress bond angles: CH₄ 109.5° > NH₃ 107° > H₂O 104.5°.", "hi": "एकाकी युग्म बंध कोण घटाते हैं: CH₄ 109.5° > NH₃ 107° > H₂O 104.5°।" },
+      { "en": "For pi bonding: count double bonds as one σ + one π.", "hi": "पाई बंध: द्विबंध = एक σ + एक π।" }
+    ],
+    "tip": { "en": "Steric number is the fastest route — don't memorise shapes, compute them.", "hi": "स्टीरिक संख्या सबसे तेज़ तरीका है — आकृतियाँ रटें नहीं, निकालें।" },
+    "source": "NCERT Class 11 Chemistry, Chapter 4 — Chemical Bonding and Molecular Structure"
+  },
+  {
+    "id": "chem-electrochem",
+    "subject": "Chemistry",
+    "topic": "Electrochemistry & Nernst Equation",
+    "exams": ["JEE Main", "JEE Advanced", "NEET"],
+    "keywords": ["electrochemistry", "nernst", "electrode", "potential", "cell", "emf", "galvanic", "electrolysis", "faraday"],
+    "variants": ["nernst equation", "नेर्नस्ट समीकरण", "electrochemical cell", "emf of cell", "electrolysis"],
+    "answer": {
+      "en": "Cell EMF: E°cell = E°cathode − E°anode. The Nernst equation gives the potential at non-standard concentrations: E = E° − (0.0591/n)·log Q at 298 K.",
+      "hi": "सेल EMF: E°cell = E°कैथोड − E°एनोड। नेर्नस्ट समीकरण गैर-मानक सांद्रता पर विभव देता है: E = E° − (0.0591/n)·log Q (298 K पर)।"
+    },
+    "steps": [
+      { "en": "Write the balanced cell reaction and find n (electrons transferred).", "hi": "संतुलित सेल अभिक्रिया लिखें और n (स्थानांतरित इलेक्ट्रॉन) निकालें।" },
+      { "en": "Compute E°cell = E°cathode − E°anode (reduction potentials).", "hi": "E°cell = E°कैथोड − E°एनोड (अपचयन विभव) निकालें।" },
+      { "en": "Write Q = [products]/[reactants] for the cell reaction.", "hi": "सेल अभिक्रिया के लिए Q = [उत्पाद]/[अभिकारक] लिखें।" },
+      { "en": "Apply E = E° − (0.0591/n) log Q. Positive E ⇒ spontaneous.", "hi": "E = E° − (0.0591/n) log Q लगाएँ। धनात्मक E ⇒ स्वतःस्फूर्त।" }
+    ],
+    "tip": { "en": "At equilibrium E = 0, so log K = nE°/0.0591 — a recurring JEE shortcut.", "hi": "साम्य पर E = 0, अतः log K = nE°/0.0591 — JEE का बार-बार आने वाला शॉर्टकट।" },
+    "source": "NCERT Class 12 Chemistry, Chapter 3 — Electrochemistry"
+  },
+  {
+    "id": "chem-carbonyl",
+    "subject": "Chemistry",
+    "topic": "Aldehydes, Ketones & Nucleophilic Addition",
+    "exams": ["JEE Main", "JEE Advanced", "NEET"],
+    "keywords": ["aldehyde", "ketone", "carbonyl", "nucleophilic", "addition", "tollens", "fehling", "iodoform", "reactivity"],
+    "variants": ["aldehyde ketone", "एल्डिहाइड कीटोन", "tollens reagent", "fehling test", "carbonyl group reactions"],
+    "answer": {
+      "en": "Carbonyl carbon is electrophilic and undergoes nucleophilic addition. Aldehydes are more reactive than ketones (less steric hindrance, less +I effect). Tollens' and Fehling's tests distinguish aldehydes from ketones.",
+      "hi": "कार्बोनिल कार्बन इलेक्ट्रॉनरागी होता है और नाभिकरागी संकलन देता है। एल्डिहाइड कीटोन से अधिक क्रियाशील हैं (कम त्रिविम बाधा, कम +I प्रभाव)। टॉलेंस और फेहलिंग परीक्षण एल्डिहाइड को कीटोन से अलग करते हैं।"
+    },
+    "steps": [
+      { "en": "Order of reactivity: HCHO > RCHO > RCOR' > ArCOR.", "hi": "क्रियाशीलता क्रम: HCHO > RCHO > RCOR' > ArCOR।" },
+      { "en": "Nucleophile (CN⁻, HCN, RMgX, NaHSO₃) attacks the δ+ carbonyl carbon.", "hi": "नाभिकरागी (CN⁻, HCN, RMgX, NaHSO₃) δ+ कार्बोनिल कार्बन पर आक्रमण करता है।" },
+      { "en": "Aldehydes give Tollens' silver mirror and Fehling's red ppt; ketones don't.", "hi": "एल्डिहाइड टॉलेंस में सिल्वर मिरर और फेहलिंग में लाल अवक्षेप देते हैं; कीटोन नहीं।" },
+      { "en": "Methyl ketones and acetaldehyde give a positive iodoform test.", "hi": "मेथिल कीटोन और एसीटैल्डिहाइड आयोडोफॉर्म परीक्षण धनात्मक देते हैं।" }
+    ],
+    "tip": { "en": "Aromatic aldehydes (benzaldehyde) don't give Fehling's test — a classic MCQ trap.", "hi": "सुगंधित एल्डिहाइड (बेंजैल्डिहाइड) फेहलिंग परीक्षण नहीं देते — प्रसिद्ध MCQ ट्रैप।" },
+    "source": "NCERT Class 12 Chemistry, Chapter 8 — Aldehydes, Ketones and Carboxylic Acids"
+  },
+  {
+    "id": "chem-thermo",
+    "subject": "Chemistry",
+    "topic": "Thermodynamics: Enthalpy, Entropy & Gibbs Energy",
+    "exams": ["JEE Main", "JEE Advanced", "NEET"],
+    "keywords": ["enthalpy", "entropy", "gibbs", "free", "energy", "spontaneous", "hess", "exothermic", "endothermic"],
+    "variants": ["gibbs free energy", "गिब्स मुक्त ऊर्जा", "entropy kya hai", "spontaneity", "hess law"],
+    "answer": {
+      "en": "A reaction is spontaneous when ΔG < 0, where ΔG = ΔH − TΔS. Enthalpy drives spontaneity when ΔH < 0 and entropy when ΔS > 0; temperature decides which dominates.",
+      "hi": "अभिक्रिया स्वतःस्फूर्त होती है जब ΔG < 0, जहाँ ΔG = ΔH − TΔS। एन्थैल्पी ΔH < 0 पर और एन्ट्रॉपी ΔS > 0 पर सहायक होती है; तापमान तय करता है कौन प्रबल है।"
+    },
+    "steps": [
+      { "en": "Compute ΔH° from bond enthalpies or Hess's law.", "hi": "बंध एन्थैल्पी या हेस नियम से ΔH° निकालें।" },
+      { "en": "Compute ΔS° from standard entropy values.", "hi": "मानक एन्ट्रॉपी मानों से ΔS° निकालें।" },
+      { "en": "ΔG° = ΔH° − TΔS° (T in kelvin). Negative ⇒ spontaneous.", "hi": "ΔG° = ΔH° − TΔS° (T केल्विन में)। ऋणात्मक ⇒ स्वतःस्फूर्त।" },
+      { "en": "Relate to equilibrium: ΔG° = −RT ln K.", "hi": "साम्य से संबंध: ΔG° = −RT ln K।" }
+    ],
+    "tip": { "en": "ΔH<0 and ΔS>0 ⇒ spontaneous at all T; ΔH>0 and ΔS<0 ⇒ never spontaneous; mixed signs ⇒ high-T or low-T only.", "hi": "ΔH<0 व ΔS>0 ⇒ हर T पर स्वतः; ΔH>0 व ΔS<0 ⇒ कभी नहीं; मिश्रित चिह्न ⇒ केवल उच्च या निम्न T पर।" },
+    "source": "NCERT Class 11 Chemistry, Chapter 6 — Thermodynamics"
+  },
+  {
+    "id": "chem-coordination",
+    "subject": "Chemistry",
+    "topic": "Coordination Compounds",
+    "exams": ["JEE Main", "JEE Advanced", "NEET"],
+    "keywords": ["coordination", "compound", "ligand", "complex", "crystal", "field", "cfse", "oxidation", "state", "isomerism"],
+    "variants": ["coordination compounds", "उपसहसंयोजन यौगिक", "crystal field theory", "ligand", "cfse", "geometry of complexes"],
+    "answer": {
+      "en": "Coordination compounds contain a central metal ion bonded to ligands by coordinate bonds. Crystal Field Theory explains colour and magnetism via d-orbital splitting (Δo) and the spectrochemical series.",
+      "hi": "उपसहसंयोजन यौगिकों में केंद्रीय धातु आयन उपसहसंयोजक बंधों से लिगैंड से जुड़ा होता है। क्रिस्टल क्षेत्र सिद्धांत d-कक्षक विपाटन (Δo) और स्पेक्ट्रमिक श्रेणी से रंग व चुंबकत्व समझाता है।"
+    },
+    "steps": [
+      { "en": "Find oxidation state of the metal from the overall charge.", "hi": "कुल आवेश से धातु की ऑक्सीकरण अवस्था निकालें।" },
+      { "en": "Count coordination number = number of donor atoms → geometry (4: tetrahedral/square planar, 6: octahedral).", "hi": "समन्वय संख्या = दाता परमाणुओं की संख्या → ज्यामिति (4: चतुष्फलकीय/वर्ग समतलीय, 6: अष्टफलकीय)।" },
+      { "en": "Use the spectrochemical series: I⁻ < Br⁻ < Cl⁻ < F⁻ < H₂O < NH₃ < CN⁻ ≈ CO.", "hi": "स्पेक्ट्रमिक श्रेणी: I⁻ < Br⁻ < Cl⁻ < F⁻ < H₂O < NH₃ < CN⁻ ≈ CO।" },
+      { "en": "Strong-field ligand + d⁴–d⁷ ⇒ low spin (usually diamagnetic).", "hi": "प्रबल क्षेत्र लिगैंड + d⁴–d⁷ ⇒ निम्न स्पिन (सामान्यतः प्रतिचुंबकीय)।" }
+    ],
+    "tip": { "en": "[Ni(CN)₄]²⁻ is square planar (dsp²) while [NiCl₄]²⁻ is tetrahedral — a favourite NEET pair.", "hi": "[Ni(CN)₄]²⁻ वर्ग समतलीय (dsp²) है जबकि [NiCl₄]²⁻ चतुष्फलकीय — NEET का प्रिय युग्म।" },
+    "source": "NCERT Class 12 Chemistry, Chapter 5 — Coordination Compounds"
+  }
+]

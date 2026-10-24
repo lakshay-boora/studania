@@ -1,0 +1,187 @@
+[
+  {
+    "id": "q-phy-001", "subject": "Physics", "topic": "Newton's Laws", "exam": "JEE Main", "difficulty": "easy",
+    "question": { "en": "A body of mass 2 kg experiences a net force of 10 N. What is its acceleration?", "hi": "2 kg द्रव्यमान की वस्तु पर 10 N का शुद्ध बल लगता है। उसका त्वरण क्या है?" },
+    "options": ["2 m/s²", "5 m/s²", "10 m/s²", "20 m/s²"], "answerIndex": 1,
+    "explanation": { "en": "From F = ma, a = F/m = 10/2 = 5 m/s².", "hi": "F = ma से, a = F/m = 10/2 = 5 m/s²।" }
+  },
+  {
+    "id": "q-phy-002", "subject": "Physics", "topic": "Projectile Motion", "exam": "JEE Main", "difficulty": "easy",
+    "question": { "en": "For a given launch speed, the horizontal range of a projectile is maximum at which angle?", "hi": "दी गई प्रक्षेपण गति के लिए क्षैतिज परास किस कोण पर अधिकतम होती है?" },
+    "options": ["30°", "45°", "60°", "90°"], "answerIndex": 1,
+    "explanation": { "en": "R = u² sin2θ/g is maximum when sin2θ = 1, i.e. 2θ = 90° ⇒ θ = 45°.", "hi": "R = u² sin2θ/g अधिकतम जब sin2θ = 1, अर्थात 2θ = 90° ⇒ θ = 45°।" }
+  },
+  {
+    "id": "q-phy-003", "subject": "Physics", "topic": "Photoelectric Effect", "exam": "JEE Advanced", "difficulty": "medium",
+    "question": { "en": "Keeping the frequency above threshold constant, if the intensity of incident light is doubled, then:", "hi": "देहली से अधिक आवृत्ति को स्थिर रखते हुए यदि आपतित प्रकाश की तीव्रता दोगुनी कर दी जाए, तो:" },
+    "options": ["Kinetic energy of photoelectrons doubles", "Number of photoelectrons doubles", "Stopping potential doubles", "Threshold frequency halves"],
+    "answerIndex": 1,
+    "explanation": { "en": "Intensity controls the number of photons, hence the number of emitted electrons. Maximum kinetic energy depends only on frequency (K_max = hν − φ).", "hi": "तीव्रता फोटॉनों की संख्या नियंत्रित करती है, अतः उत्सर्जित इलेक्ट्रॉनों की संख्या बदलती है। अधिकतम गतिज ऊर्जा केवल आवृत्ति पर निर्भर है (K_max = hν − φ)।" }
+  },
+  {
+    "id": "q-phy-004", "subject": "Physics", "topic": "Current Electricity", "exam": "NEET", "difficulty": "easy",
+    "question": { "en": "A wire of resistance R is stretched uniformly to double its length (volume constant). What is its new resistance?", "hi": "प्रतिरोध R का तार समान रूप से खींचकर उसकी लंबाई दोगुनी की जाती है (आयतन स्थिर)। नया प्रतिरोध क्या होगा?" },
+    "options": ["R", "2R", "4R", "R/2"], "answerIndex": 2,
+    "explanation": { "en": "R = ρL/A. Doubling L halves A (volume constant), so R' = ρ(2L)/(A/2) = 4R.", "hi": "R = ρL/A। लंबाई दोगुनी होने पर A आधा (आयतन स्थिर), अतः R' = ρ(2L)/(A/2) = 4R।" }
+  },
+  {
+    "id": "q-phy-005", "subject": "Physics", "topic": "Ray Optics", "exam": "NEET", "difficulty": "medium",
+    "question": { "en": "An object is placed at 2f in front of a convex lens. The image formed is:", "hi": "उत्तल लेंस के सामने वस्तु 2f पर रखी है। बनने वाला प्रतिबिंब है:" },
+    "options": ["At 2f on the other side, same size, inverted", "At f, highly diminished", "At infinity", "Virtual and erect at 2f"],
+    "answerIndex": 0,
+    "explanation": { "en": "With u = −2f: 1/v = 1/f + 1/u = 1/f − 1/2f = 1/2f ⇒ v = 2f. m = v/u = −1 ⇒ real, inverted, same size.", "hi": "u = −2f: 1/v = 1/f + 1/u = 1/f − 1/2f = 1/2f ⇒ v = 2f। m = v/u = −1 ⇒ वास्तविक, उल्टा, समान आकार।" }
+  },
+  {
+    "id": "q-phy-006", "subject": "Physics", "topic": "Thermodynamics", "exam": "JEE Main", "difficulty": "medium",
+    "question": { "en": "In an isothermal expansion of an ideal gas, which quantity is zero?", "hi": "आदर्श गैस के समतापी प्रसार में कौन-सी राशि शून्य होती है?" },
+    "options": ["Work done by the gas", "Heat absorbed", "Change in internal energy", "Entropy change"],
+    "answerIndex": 2,
+    "explanation": { "en": "For an ideal gas U depends only on T, so ΔU = 0 isothermally. Then Q = W ≠ 0.", "hi": "आदर्श गैस में U केवल T पर निर्भर है, अतः समतापी में ΔU = 0। तब Q = W ≠ 0।" }
+  },
+  {
+    "id": "q-chem-001", "subject": "Chemistry", "topic": "Mole Concept", "exam": "JEE Main", "difficulty": "easy",
+    "question": { "en": "How many moles are present in 44 g of CO₂? (C = 12, O = 16)", "hi": "44 g CO₂ में कितने मोल हैं? (C = 12, O = 16)" },
+    "options": ["0.5", "1", "2", "44"], "answerIndex": 1,
+    "explanation": { "en": "Molar mass of CO₂ = 12 + 32 = 44 g/mol ⇒ n = 44/44 = 1 mol.", "hi": "CO₂ का मोलर द्रव्यमान = 12 + 32 = 44 g/mol ⇒ n = 44/44 = 1 मोल।" }
+  },
+  {
+    "id": "q-chem-002", "subject": "Chemistry", "topic": "Ionic Equilibrium", "exam": "NEET", "difficulty": "easy",
+    "question": { "en": "The pH of a 0.01 M HCl solution is:", "hi": "0.01 M HCl विलयन का pH है:" },
+    "options": ["1", "2", "12", "0.01"], "answerIndex": 1,
+    "explanation": { "en": "HCl is strong, so [H⁺] = 0.01 = 10⁻² ⇒ pH = −log(10⁻²) = 2.", "hi": "HCl प्रबल है, अतः [H⁺] = 0.01 = 10⁻² ⇒ pH = −log(10⁻²) = 2।" }
+  },
+  {
+    "id": "q-chem-003", "subject": "Chemistry", "topic": "States of Matter", "exam": "JEE Main", "difficulty": "easy",
+    "question": { "en": "At STP, 11.2 L of an ideal gas contains:", "hi": "STP पर 11.2 L आदर्श गैस में होते हैं:" },
+    "options": ["1 mol", "0.5 mol", "2 mol", "11.2 mol"], "answerIndex": 1,
+    "explanation": { "en": "22.4 L at STP = 1 mol ⇒ 11.2 L = 0.5 mol.", "hi": "STP पर 22.4 L = 1 मोल ⇒ 11.2 L = 0.5 मोल।" }
+  },
+  {
+    "id": "q-chem-004", "subject": "Chemistry", "topic": "Chemical Bonding", "exam": "NEET", "difficulty": "easy",
+    "question": { "en": "The hybridisation of carbon in CH₄ is:", "hi": "CH₄ में कार्बन का संकरण है:" },
+    "options": ["sp", "sp²", "sp³", "sp³d"], "answerIndex": 2,
+    "explanation": { "en": "Carbon has 4 σ bonds and 0 lone pairs ⇒ steric number 4 ⇒ sp³ (tetrahedral, 109.5°).", "hi": "कार्बन में 4 σ बंध व 0 एकाकी युग्म ⇒ स्टीरिक संख्या 4 ⇒ sp³ (चतुष्फलकीय, 109.5°)।" }
+  },
+  {
+    "id": "q-chem-005", "subject": "Chemistry", "topic": "Coordination Compounds", "exam": "JEE Advanced", "difficulty": "hard",
+    "question": { "en": "The oxidation state of Fe in K₄[Fe(CN)₆] is:", "hi": "K₄[Fe(CN)₆] में Fe की ऑक्सीकरण अवस्था है:" },
+    "options": ["+1", "+2", "+3", "+4"], "answerIndex": 1,
+    "explanation": { "en": "4(+1) + x + 6(−1) = 0 ⇒ x = +2.", "hi": "4(+1) + x + 6(−1) = 0 ⇒ x = +2।" }
+  },
+  {
+    "id": "q-chem-006", "subject": "Chemistry", "topic": "Electrochemistry", "exam": "JEE Main", "difficulty": "medium",
+    "question": { "en": "For a galvanic cell, E°cell equals:", "hi": "गैल्वेनिक सेल के लिए E°cell बराबर है:" },
+    "options": ["E°anode − E°cathode", "E°cathode − E°anode", "E°cathode + E°anode", "Zero always"],
+    "answerIndex": 1,
+    "explanation": { "en": "E°cell = E°cathode (reduction) − E°anode (reduction potential of the oxidation half).", "hi": "E°cell = E°कैथोड (अपचयन) − E°एनोड (ऑक्सीकरण अर्ध का अपचयन विभव)।" }
+  },
+  {
+    "id": "q-chem-007", "subject": "Chemistry", "topic": "Thermodynamics", "exam": "NEET", "difficulty": "medium",
+    "question": { "en": "A reaction has ΔH < 0 and ΔS > 0. The reaction is spontaneous:", "hi": "किसी अभिक्रिया में ΔH < 0 और ΔS > 0 है। अभिक्रिया स्वतःस्फूर्त है:" },
+    "options": ["At all temperatures", "Only at low temperature", "Only at high temperature", "Never"],
+    "answerIndex": 0,
+    "explanation": { "en": "ΔG = ΔH − TΔS is negative for every T > 0 when ΔH < 0 and ΔS > 0.", "hi": "ΔH < 0 और ΔS > 0 होने पर ΔG = ΔH − TΔS हर T > 0 के लिए ऋणात्मक होता है।" }
+  },
+  {
+    "id": "q-math-001", "subject": "Mathematics", "topic": "Quadratic Equations", "exam": "JEE Main", "difficulty": "easy",
+    "question": { "en": "The discriminant of x² − 5x + 6 = 0 is:", "hi": "x² − 5x + 6 = 0 का विविक्तकर है:" },
+    "options": ["−1", "1", "5", "25"], "answerIndex": 1,
+    "explanation": { "en": "D = b² − 4ac = 25 − 24 = 1. Roots are 2 and 3.", "hi": "D = b² − 4ac = 25 − 24 = 1। मूल 2 और 3 हैं।" }
+  },
+  {
+    "id": "q-math-002", "subject": "Mathematics", "topic": "Limits", "exam": "JEE Main", "difficulty": "easy",
+    "question": { "en": "lim(x→0) sin 3x / x equals:", "hi": "lim(x→0) sin 3x / x बराबर है:" },
+    "options": ["0", "1", "3", "1/3"], "answerIndex": 2,
+    "explanation": { "en": "sin3x/x = 3·(sin3x/3x) → 3 × 1 = 3.", "hi": "sin3x/x = 3·(sin3x/3x) → 3 × 1 = 3।" }
+  },
+  {
+    "id": "q-math-003", "subject": "Mathematics", "topic": "Differentiation", "exam": "JEE Main", "difficulty": "medium",
+    "question": { "en": "The derivative of y = sin(x²) is:", "hi": "y = sin(x²) का अवकलज है:" },
+    "options": ["cos(x²)", "2x cos(x²)", "x² cos(2x)", "2x sin(x²)"], "answerIndex": 1,
+    "explanation": { "en": "Chain rule: d/dx sin(u) = cos(u)·u′ = cos(x²)·2x.", "hi": "शृंखला नियम: d/dx sin(u) = cos(u)·u′ = cos(x²)·2x।" }
+  },
+  {
+    "id": "q-math-004", "subject": "Mathematics", "topic": "Integration", "exam": "JEE Main", "difficulty": "easy",
+    "question": { "en": "∫ 2x dx equals:", "hi": "∫ 2x dx बराबर है:" },
+    "options": ["x² + C", "2x² + C", "x + C", "x²/2 + C"], "answerIndex": 0,
+    "explanation": { "en": "∫ 2x dx = 2·(x²/2) + C = x² + C.", "hi": "∫ 2x dx = 2·(x²/2) + C = x² + C।" }
+  },
+  {
+    "id": "q-math-005", "subject": "Mathematics", "topic": "Probability", "exam": "JEE Main", "difficulty": "easy",
+    "question": { "en": "Two fair dice are rolled. What is the probability that the sum is 7?", "hi": "दो निष्पक्ष पासे फेंके जाते हैं। योग 7 होने की प्रायिकता क्या है?" },
+    "options": ["1/12", "1/6", "5/36", "1/9"], "answerIndex": 1,
+    "explanation": { "en": "Favourable pairs: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6 ⇒ 6/36 = 1/6.", "hi": "अनुकूल युग्म: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6 ⇒ 6/36 = 1/6।" }
+  },
+  {
+    "id": "q-math-006", "subject": "Mathematics", "topic": "Vectors", "exam": "JEE Advanced", "difficulty": "medium",
+    "question": { "en": "If |a| = 2, |b| = 3 and a ⊥ b, then |a × b| equals:", "hi": "यदि |a| = 2, |b| = 3 और a ⊥ b, तो |a × b| बराबर है:" },
+    "options": ["0", "1", "5", "6"], "answerIndex": 3,
+    "explanation": { "en": "|a × b| = |a||b| sin θ = 2 × 3 × sin 90° = 6.", "hi": "|a × b| = |a||b| sin θ = 2 × 3 × sin 90° = 6।" }
+  },
+  {
+    "id": "q-math-007", "subject": "Mathematics", "topic": "Conic Sections", "exam": "JEE Advanced", "difficulty": "hard",
+    "question": { "en": "The eccentricity of the ellipse x²/25 + y²/16 = 1 is:", "hi": "दीर्घवृत्त x²/25 + y²/16 = 1 की उत्केंद्रता है:" },
+    "options": ["3/5", "4/5", "5/4", "3/4"], "answerIndex": 0,
+    "explanation": { "en": "a² = 25, b² = 16 ⇒ c² = a² − b² = 9 ⇒ c = 3, e = c/a = 3/5.", "hi": "a² = 25, b² = 16 ⇒ c² = a² − b² = 9 ⇒ c = 3, e = c/a = 3/5।" }
+  },
+  {
+    "id": "q-bio-001", "subject": "Biology", "topic": "Cellular Respiration", "exam": "NEET", "difficulty": "easy",
+    "question": { "en": "Glycolysis takes place in the:", "hi": "ग्लाइकोलिसिस कहाँ होता है:" },
+    "options": ["Mitochondrial matrix", "Cytoplasm", "Inner mitochondrial membrane", "Nucleus"], "answerIndex": 1,
+    "explanation": { "en": "All ten steps of glycolysis occur in the cytoplasm (cytosol), independent of oxygen.", "hi": "ग्लाइकोलिसिस के सभी दस चरण कोशिकाद्रव्य में होते हैं, ऑक्सीजन से स्वतंत्र।" }
+  },
+  {
+    "id": "q-bio-002", "subject": "Biology", "topic": "Photosynthesis", "exam": "NEET", "difficulty": "easy",
+    "question": { "en": "The oxygen released during photosynthesis comes from:", "hi": "प्रकाश संश्लेषण में निकलने वाली ऑक्सीजन किससे आती है:" },
+    "options": ["CO₂", "Glucose", "Water", "Chlorophyll"], "answerIndex": 2,
+    "explanation": { "en": "Photolysis of water at PS II releases O₂ (proved by isotope studies with H₂¹⁸O).", "hi": "PS II पर जल के प्रकाश अपघटन से O₂ निकलती है (H₂¹⁸O के समस्थानिक अध्ययन से सिद्ध)।" }
+  },
+  {
+    "id": "q-bio-003", "subject": "Biology", "topic": "Molecular Basis of Inheritance", "exam": "NEET", "difficulty": "easy",
+    "question": { "en": "DNA replication is:", "hi": "डीएनए प्रतिकृति है:" },
+    "options": ["Conservative", "Semi-conservative", "Dispersive", "Non-conservative"], "answerIndex": 1,
+    "explanation": { "en": "Meselson–Stahl's experiment showed each daughter duplex retains one parental strand — semi-conservative.", "hi": "मेसेलसन–स्टाल प्रयोग ने दिखाया कि प्रत्येक संतति द्विकुंडल में एक जनक रज्जु रहती है — अर्ध-संरक्षी।" }
+  },
+  {
+    "id": "q-bio-004", "subject": "Biology", "topic": "Genetics", "exam": "NEET", "difficulty": "medium",
+    "question": { "en": "The F₂ phenotypic ratio in a Mendelian dihybrid cross is:", "hi": "मेंडल के द्विसंकर संकरण में F₂ फीनोटाइपिक अनुपात है:" },
+    "options": ["3 : 1", "1 : 2 : 1", "9 : 3 : 3 : 1", "1 : 1 : 1 : 1"], "answerIndex": 2,
+    "explanation": { "en": "Independent assortment of two gene pairs gives 9:3:3:1 in F₂.", "hi": "दो जीन युग्मों के स्वतंत्र अपव्यूहन से F₂ में 9:3:3:1 प्राप्त होता है।" }
+  },
+  {
+    "id": "q-bio-005", "subject": "Biology", "topic": "Human Physiology", "exam": "NEET", "difficulty": "easy",
+    "question": { "en": "The natural pacemaker of the human heart is the:", "hi": "मानव हृदय का प्राकृतिक पेसमेकर है:" },
+    "options": ["AV node", "SA node", "Bundle of His", "Purkinje fibres"], "answerIndex": 1,
+    "explanation": { "en": "The sino-atrial (SA) node generates the impulse that sets heart rhythm.", "hi": "साइनो-एट्रियल (SA) नोड आवेग उत्पन्न करता है जो हृदय लय तय करता है।" }
+  },
+  {
+    "id": "q-bio-006", "subject": "Biology", "topic": "Immunity", "exam": "NEET", "difficulty": "medium",
+    "question": { "en": "Colostrum provides which type of immunity to a newborn?", "hi": "कोलोस्ट्रम नवजात को किस प्रकार की प्रतिरक्षा देता है?" },
+    "options": ["Active natural", "Passive natural", "Active artificial", "Passive artificial"], "answerIndex": 1,
+    "explanation": { "en": "Antibodies (IgA) pass ready-made from mother to infant via colostrum — passive natural immunity.", "hi": "माँ से शिशु को तैयार प्रतिरक्षी (IgA) कोलोस्ट्रम द्वारा मिलते हैं — निष्क्रिय प्राकृतिक प्रतिरक्षा।" }
+  },
+  {
+    "id": "q-upsc-001", "subject": "UPSC Polity", "topic": "Fundamental Rights", "exam": "UPSC CSE", "difficulty": "easy",
+    "question": { "en": "Which Article is called the 'heart and soul of the Constitution' by Dr. B.R. Ambedkar?", "hi": "डॉ. बी.आर. आंबेडकर ने किस अनुच्छेद को 'संविधान की आत्मा' कहा?" },
+    "options": ["Article 14", "Article 19", "Article 21", "Article 32"], "answerIndex": 3,
+    "explanation": { "en": "Article 32 gives the right to move the Supreme Court for enforcement of Fundamental Rights.", "hi": "अनुच्छेद 32 मूल अधिकारों के प्रवर्तन हेतु सर्वोच्च न्यायालय जाने का अधिकार देता है।" }
+  },
+  {
+    "id": "q-upsc-002", "subject": "UPSC Polity", "topic": "DPSP", "exam": "UPSC CSE", "difficulty": "easy",
+    "question": { "en": "Directive Principles of State Policy are contained in which Part of the Constitution?", "hi": "राज्य के नीति निदेशक तत्व संविधान के किस भाग में हैं?" },
+    "options": ["Part II", "Part III", "Part IV", "Part IVA"], "answerIndex": 2,
+    "explanation": { "en": "Part IV (Articles 36–51) contains the DPSP; Part IVA contains Fundamental Duties (Article 51A).", "hi": "भाग IV (अनुच्छेद 36–51) में DPSP; भाग IVA में मूल कर्तव्य (अनुच्छेद 51A)।" }
+  },
+  {
+    "id": "q-upsc-003", "subject": "UPSC Geography", "topic": "Monsoon", "exam": "UPSC CSE", "difficulty": "medium",
+    "question": { "en": "The southwest monsoon in India generally lasts from:", "hi": "भारत में दक्षिण-पश्चिम मानसून सामान्यतः कब तक रहता है:" },
+    "options": ["April to July", "June to September", "October to December", "December to March"], "answerIndex": 1,
+    "explanation": { "en": "The southwest monsoon season is June–September and brings about 75% of annual rainfall.", "hi": "दक्षिण-पश्चिम मानसून जून–सितंबर होता है और वार्षिक वर्षा का लगभग 75% देता है।" }
+  },
+  {
+    "id": "q-upsc-004", "subject": "UPSC Economy", "topic": "Planning", "exam": "UPSC CSE", "difficulty": "medium",
+    "question": { "en": "The Planning Commission was replaced by NITI Aayog in:", "hi": "योजना आयोग को नीति आयोग ने कब प्रतिस्थापित किया:" },
+    "options": ["2012", "2014", "2015", "2017"], "answerIndex": 2,
+    "explanation": { "en": "NITI Aayog was established on 1 January 2015 by a Cabinet resolution.", "hi": "नीति आयोग की स्थापना 1 जनवरी 2015 को मंत्रिमंडल संकल्प द्वारा हुई।" }
+  }
+]
